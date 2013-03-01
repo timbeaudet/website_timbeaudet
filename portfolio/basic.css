@@ -1,0 +1,90 @@
+/* FOR GENERAL LAYOUT AND LOOK */
+body {
+	font-size: 62.5%;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background-color:#000000;
+	color:#FFFFFF;
+	
+	margin: 0;
+	padding: 15px 0px 0px 0px;
+}
+
+
+a:link, a:visited { color:#2E9FFF; }
+a:hover, a:active { color:#0077CC; }
+
+p { text-align:justify; font-size: 1.0em; }
+p.pindent { text-indent:15px; }
+
+h1 { color:#2E9FFF; text-align:center; text-decoration:underline; margin:0px; }
+h2 { color:#2E9FFF; text-align:left; margin:0px; }
+h3 { color:#2E9FFF; text-align:left; margin:0px; }
+
+
+/* FOR THE MENU BAR */
+ul.menu { list-style-type:none; margin:0; padding:0; overflow:hidden; }
+li.menu { float:left; }		/* a.menu:link width should be (960px / X); where X is the num of menu items. */
+a.menu:link, a.menu:visited {
+	color:#FFFFFF; 
+	background-color:#2E9FFF;
+	display:block;
+	width:192px;
+	font-family: "Trebuchet MS", Verdana, Arial, Sans-Serif;
+	font-size: 1.25em;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:0px;
+} 
+a.menu:hover, a.menu:active { background-color:#0077CC }
+
+
+.titleimg {
+	width:960;
+	height:150;
+}
+
+.page {
+	width:960px;
+	margin: 0px auto;
+	font-size: 1.3em;
+}
+
+.post {				/* FOR THE CONTENT SECTION */
+	margin: 0 0 0 0;
+	padding: 1px 1px 1px 1px;
+	border: 2px solid #2E9FFF;
+	border-radius: 16px; padding: 12px; margin: 16px 0px;
+	font-size: 1.0em;
+}
+
+.copywrite {
+	font-size: 9px;
+	text-align:center;
+}
+
+.contact {
+	width:200px;
+	margin: 0px auto;
+	font-size: 1.25em;
+}
+
+
+/* FOR THE PERSONAL PROJECTS PAGE */
+h2.gameTitle { color:#2E9FFF; float:left; margin:0px; }
+h2.gameDownload { float:right; margin:0px; }
+h2.sourceDownload { float:right; margin:0px; margin-right:10px; }
+
+img.gameThumbnail { float:left; margin: 0px 10px 0px 0px; width:320; height:240; border:0; }
+img.tinyThumbnail { float:left; margin: 5px 10px 10px 0px; width:96; height:72; border:0; }
+
+/* FOR THE CAREER PROJECTS PAGE */
+font.work_dates { color:#2E9FFF; }
+font.game_title { color:#2E9FFF; font-weight:bold; }
+font.game_platform { color:#2E9FFF; }
+font.game_released { color:#2E9FFF; }
+
+/* Still using tables on the Career page. */
+td.lytproj_l { font-size: 0.8em; width:50%; text-align:left; }
+td.lytproj_r { font-size: 0.8em; width:50%; text-align:right; }
