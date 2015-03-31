@@ -11,25 +11,57 @@
 <img class="titleimg" src="imgs/titlebar.png" alt="TimBeaudet::GameDeveloper();" title="TimBeaudet::GameDeveloper();">
 
 <ul class="menu">
-  <li class="menu"><a class="menu" href="index.html">Home</a></li>
+  <li class="menu"><a class="menu" href="http://www.timbeaudet.com">Home</a></li>
   <li class="menu"><a class="menu" href="projects.html">Personal</a></li>
   <li class="menu"><a class="menu" href="career.html">Career</a></li>
-  <li class="menu"><a class="menu" href="TimBeaudet_Resume.pdf">Resume</a></li>
+  <li class="menu"><a class="menu" href="timbeaudet_resume.pdf">Resume</a></li>
   <li class="menu"><a class="menu" href="contact.html">Contact</a></li>
 </ul>
 
-
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 	<!--<h2 class="gameDownload"><a href="http://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
-	<h2 class="gameTitle">AIRS: Computing the Racing Line</h2>
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Computing the Racing Line</h2>
 	<br>
 	<p class="pindent">
-	<iframe style="{ float:left; margin-right:15px; } width="320" height="180" src="http://www.youtube.com/embed/y9BR3yC4X8Y" frameborder="0" allowfullscreen></iframe>
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="http://www.youtube.com/embed/y9BR3yC4X8Y" frameborder="2" allowfullscreen></iframe>
 	Long ago I started the Artificial Intelligence in Racing Simulations project, and I have finally made some progress by computing the racing line, procedurally knowing only the left and right edges of a track.  This was a fun project.  First step was to calculate the center-line given only two arrays of points representing the left/right edges.  After a so-so tries, I finally found that it was best to guess where the next center point was before extending outwards to the left and right to compute the actual center.</p>
 	<p class="pindent">Once the center line was computed, the fun portion began.  I setup a simulation based on hinges acting like springs, which would then try to pull the center line into a racing line, like magic!  Only, not the first try.  I had to constrain the nodes movement to be only horizontally across the track as the line moved all over the place and my for some unknown reason the collision with track edges ended in failure.  Good news though, once I constrained the movement, the need for collision was no longer needed.  The result is quite amazing to watch.</p>
 </div>					<!-- End of content section -->
 
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!--<h2 class="gameDownload"><a href="http://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Sensors and Prediction</h2>
+	<br>
+	<p class="pindent">
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="http://www.youtube.com/embed/BuL6oXqFbuU" frameborder="2" allowfullscreen></iframe>
+	After computing the racing line of the racing track, I started working on sensors by collecting information from the already built (not mine) racing simulation Live For Speed.  The sensors will give the artificial driver information about the physical feel of the car through g-forces, the visual representation of the track through reference points that are visible, and information about the car that any driver would know or see by looking at the instrument panels.  Through the movement as seen only through the visual sensor the prediction unit will project the future position and behavior of the car.</p>
+	
+	<p class="pindent">
+	<iframe style="float:right; margin-left:15px;" width="320" height="180" src="http://www.youtube.com/embed/Q769kkk5qkI" frameborder="2" allowfullscreen></iframe>
+	The video to the right shows the artificial driver controlling a car in the Live For Speed racing simulator through a virtual controller.  No driving aids, auto-clutch or automatic transmission.  The driver is acting on information from the sensors but is not using the prediction unit at this time because, as you can see in the video, the prediction unit became jumpy and inaccurate as the project developed.</p>
+	
+	<p class="pindent">The driver checks different points along the racing line.  Depending on the angle between these points and vehicle speed, the driver applies the throttle or brakes and steers to aim.  This was tricky to tune, and the hope was to use the prediction unit to reach the cars limit.</p>
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!--<h2 class="gameDownload"><a href="http://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Learning to Drive</h2>
+	<br>
+	<p class="pindent">
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="http://www.youtube.com/embed/pvgh0nr_KN4" frameborder="2" allowfullscreen></iframe>
+	When I had finished working on the sensors and got the artificial driver to navigate Live For Speed using a virtual controller, immediately the challenge became finding a way to drive at the limit of the car, what ever those limits might be.  This was a challenge and I decided to try a learning algorithm to let the artificial driver figure it out on their own, that and I was thinking a neural network might be useful giving several points regarding the racing line and other sensor information as input.  To train the neural net I'd first need to figure out a simpler learning technique; the genetic algorithm.</p>
+	<p class="pindent">It was fairly easy to develop, actually, it was really easy to develop.  The problem was trying to tune the fitness function and genetic algorithm mutation and crossover rates.  I had to simplify the problem to a guess the number, which worked reasonable well +/- 1, for most numbers but a few would be +/- 3.  This proved the algorithm worked and I applied it to the little bots in a very simple race simulation.  The bots just know how far away from the center of the track they currently are, and how fast they are moving towards/away from the center and using this they apply throttle/brake/steering inputs.  I have a feeling it converges too quickly, and they don't quite get as fast as a player, but I think that just needs more fitness tuning.</p>
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 	<h2 class="gameDownload"><a href="http://www.timbeaudet.com/goods/ld27/">Play</a></h2>
@@ -42,7 +74,7 @@
 	<br><br><br><br><br>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2 class="gameDownload"><a href="http://www.timbeaudet.com/goods/ld23/cracked/">Play</a></h2>
@@ -55,7 +87,7 @@ Cracked! was created with joekinley during LudumDare 23.  Save the kids from the
 <br><br><br><br>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <!--<h2 class="gameDownload"><a href="http://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
@@ -69,7 +101,7 @@ In summer of 2010 I started working on a small editor framework as I was fed up 
 <br><br>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2 class="gameDownload"><a class="gameDownload" href="http://timbeaudet.com/goods/ld22/tenyardsalone.zip">.zip</a> </h2> <!-- Download available -->
@@ -83,7 +115,7 @@ This time I planned to aim for a very small, but very polished game in 48 hours.
 <br><br><br><br>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2 class="gameDownload"><a class="gameDownload" href="http://timbeaudet.com/goods/ld21/EscapeLD21.zip">.zip</a></h2> <!-- Download available -->
@@ -97,7 +129,7 @@ With 48 hours set, my task was clear.  Design and develop a game based on the th
 <br><br>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2 class="gameDownload"><a class="gameDownload" href="http://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> <!-- Download available -->
@@ -112,7 +144,7 @@ An experimental weekend project between another programmer and myself.  The conc
 <p class="pindent">We developed a moving camera that would follow the player at a maximum move speed, but then the player could miss out on things after a teleport, so the camera was put on a spring.  The farther the camera is from the player, the faster it moves toward the player.  This was a lot better feeling for the game.</p>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <!-- <h2 class="gameDownload"><a href="http://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> <!-- Download available -->
@@ -122,7 +154,7 @@ An experimental weekend project between another programmer and myself.  The conc
 <p class="pindent">Initially the idea grew larger than our intended scope, so another meeting was called to cut features, and lower the size.  Although the same basic idea applies, the current goals will be easier to achieve while maintaining quality all around on each feature and asset added to the project.</p>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <!-- <h2 class="gameDownload"><a href="http://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> <!-- Download available -->
@@ -137,36 +169,38 @@ goodPassGo is not in the css.
 <p class="pindent">Currently I have been using a virtual controller, and the information provided from the <a href="www.lfs.net">Live For Speed Racing Simulator</a> to run my tests.  This proves that the AI system will not depend on direct physical information, can only control a car exactly the same way the player can and will work under extreme settings!</p>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
-<!-- <h2 class="gameDownload"><a href="http://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> <!-- Download available -->
+<!-- <h2 class="gameDownload"><a href="http://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> --> <!-- Download available -->
 <h2 class="gameTitle">Tire Simulation</h2>
 <br>
 <p>In December 2008 I started a project to mimic a tire with deformable properties.  Within a week or two the project had a deformable mesh, although this mesh was unstable.  The project was put on hold due to career and life events until mid October 2009 where work began again.</p>
-<p <a href="#"><object style="{ float:left; margin-right:15px; }" width="560" height="340"><param name="movie" value="http://www.youtube.com/v/t_z7uyv0s2c&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/t_z7uyv0s2c&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></a>
+<p <a href="#"><object style="float:left; margin-right:15px;" width="560" height="340"><param name="movie" value="http://www.youtube.com/v/t_z7uyv0s2c&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/t_z7uyv0s2c&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></a>
 The tire mesh is created procedurally, then a Point-Mass System is structured in a way that holds the tire together.  This allows the contact patch to move separately but also get pulled back into the correct shape.  During October many improvements were made including large optimizations.  Removed several unnecessary springs, and placed the springs more optimally so that the tire behaved the same with fewer springs.  This also allows the tire to have different resistances for lateral and longitudinal forces.</p>
 <p>The lateral force is sideways, created when the tire is going around a tight turn and the longitudinal forces are when the throttle/brakes are applied, how the contact patch tends to hold position before bending back in shape.  Top fuel dragster tires show longitudinal deformation well, <a href="http://www.youtube.com/watch?v=KLtNvSL-ruA&feature=related">see here.</a> Check out the You-Tube video for more information.</p>
 <p>Still in development from time to time, so perhaps there will be updates to come.</p>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2 class="gameDownload"><a href="http://timbeaudet.com/goods/dev/RacerX.zip">.zip</a></h2> <!-- Download available -->
 <h2 class="gameTitle">RacerX</h2>
 <br>
-<p class="pindent"><a href="imgs/proj/rcrx_editor.png"><img src="imgs/proj/rcrx_editor.png" style="{ float:left; margin-right:10px; width:296; height:200; border:0; }" alt="RacerX Editor" ></a> 
+<p class="pindent"><a href="imgs/proj/rcrx_editor.png"><img class="gameThumbnail" src="imgs/proj/rcrx_editor.png" style="{ float:left; margin-right:10px; width:296; height:200; border:0; }" alt="RacerX Editor" ></a> 
 This little project goes down as my longest running, single project that I worked on alone.  A lot of neat features, but no real completeness.  I created a design document for the project in a couple nights, then started the project along side doing my own engine.  RacerX was never the intended name, however it stuck.  The code base for RacerX was designed properly at the beginning, however with feature creep setting in I implemented many things that were not initially planned.  The project doesn't have a reason to keep someone interested, nor does it look overly appealing with my programmer-art abilities, but it proved as a learning ground for me.</p>
-<p class="pindent"><a href="imgs/proj/rcrx_trees.png"><img src="imgs/proj/rcrx_trees.png" style="{ float:right; margin-left:10px; width:296; height:200; border:0; }" alt="RacerX Editor" ></a>
+<p class="pindent"><a href="imgs/proj/rcrx_trees.png"><img class="gameThumbnail" style="float:right; margin-left:15px;" src="imgs/proj/rcrx_trees.png" style="{ float:right; margin-left:10px; width:296; height:200; border:0; }" alt="RacerX Editor" ></a>
 Features a tile-based track editor, AI that can travel around any track <i>(although not competitively)</i> Multiplayer lobby, where 8 clients can join a server and chat - including Voice Over Net.  Unfortunately that is where multiplayer ends.  Physics are rudimentary at best, no collisions.  Learned and implemented the merge-sort algorithm to sort tree-sprites quickly depending on the camera position.</p>
 <p class="pindent">So, it might not be the prettiest project I've worked on, though it served as the learning ground for several of the features that were added.  From sorting, to recording sound, to writing basic AI that can follow any track.  RacerX holds a special position within my personal projects.</p>
 </div>					<!-- End of content section -->
 
-
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
 
 <br>
-<p class="copywrite">Copyright &copy 2014, Tim Beaudet</p>
+<p class="copywrite">Copyright &copy 2015, Tim Beaudet</p>
 
 </div>
 </body>
