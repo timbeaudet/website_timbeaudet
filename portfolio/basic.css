@@ -1,7 +1,7 @@
 /* FOR GENERAL LAYOUT AND LOOK */
 body {
 	font-size: 62.5%;
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif;
 	background-color:#000000;
 	color:#FFFFFF;
 	
@@ -29,7 +29,7 @@ a.menu:link, a.menu:visited {
 	background-color:#2E9FFF;
 	display:block;
 	width:192px;
-	font-family: "Trebuchet MS", Verdana, Arial, Sans-Serif;
+	font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif;
 	font-size: 1.25em;
 	font-weight:bold;
 	text-align:center;
