@@ -1,0 +1,100 @@
+<!DOCTYPE HTML SYSTEM>
+<html lang="en">
+<head>
+<link href="basic.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="shortcut icon" href="favicon.ico">
+<title>TimBeaudet::GameDeveloper();</title>
+</head>
+<body>
+
+<!--   Tim Beaudet is a Game Developer and has put this website together with serious help from google and other    -->
+<!-- developers. Please realize these basic css/html skills do not reflect his expertise with developing games      -->
+<!-- especially since C++ is his primary playground. Tim is always looking for projects to collaborate or work on.  -->
+
+<div class="page">
+<img class="titleimg" src="imgs/titlebar.png" alt="TimBeaudet::GameDeveloper();" title="TimBeaudet::GameDeveloper();">
+
+<ul class="menu">
+  <li class="menu"><a class="menu" href="https://www.timbeaudet.com">Home</a></li>
+  <li class="menu"><a class="menu" href="projects.html">Personal</a></li>
+  <li class="menu"><a class="menu" href="career.html">Career</a></li>
+  <li class="menu"><a class="menu" href="timbeaudet_resume.pdf">Resume</a></li>
+  <li class="menu"><a class="menu" href="contact.html">Contact</a></li>
+</ul>
+
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!--<h2 class="gameDownload"><a href="https://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Computing the Racing Line</h2>
+	<br>
+	<p class="pindent">
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="https://www.youtube.com/embed/y9BR3yC4X8Y" frameborder="2" allowfullscreen></iframe>
+		Long ago I started the Artificial Intelligence in Racing Simulations project, and I have finally made some progress by computing the racing line, procedurally knowing only the left and right edges of a track. This was a fun project. First step was to calculate the center-line given only two arrays of points representing the left/right edges. After a so-so tries, I finally found that it was best to guess where the next center point was before extending outwards to the left and right to compute the actual center.</p>
+	<p class="pindent">
+		Once the center line was computed, the fun portion began. I setup a simulation based on hinges acting like springs, which would then try to pull the center line into a racing line, like magic! Only, not the first try. I had to constrain the nodes movement to be only horizontally across the track as the line moved all over the place and my for some unknown reason the collision with track edges ended in failure. Good news though, once I constrained the movement, the need for collision was no longer needed. The result is quite amazing to watch.</p>
+	<div style="clear:both;"></div>
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!--<h2 class="gameDownload"><a href="https://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Sensors and Prediction</h2>
+	<br>
+	<p class="pindent">
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="https://www.youtube.com/embed/BuL6oXqFbuU" frameborder="2" allowfullscreen></iframe>
+		After computing the racing line of the racing track, I started working on sensors by collecting information from the already built (not mine) racing simulation Live For Speed. The sensors will give the artificial driver information about the physical feel of the car through g-forces, the visual representation of the track through reference points that are visible, and information about the car that any driver would know or see by looking at the instrument panels. Through the movement as seen only through the visual sensor the prediction unit will project the future position and behavior of the car.</p>
+	
+	<p class="pindent">
+	<iframe style="float:right; margin-left:15px;" width="320" height="180" src="https://www.youtube.com/embed/Q769kkk5qkI" frameborder="2" allowfullscreen></iframe>
+		The video to the right shows the artificial driver controlling a car in the Live For Speed racing simulator through a virtual controller. No driving aids, auto-clutch or automatic transmission. The driver is acting on information from the sensors but is not using the prediction unit at this time because, as you can see in the video, the prediction unit became jumpy and inaccurate as the project developed.</p>
+	
+	<p class="pindent">
+		The driver checks different points along the racing line. Depending on the angle between these points and vehicle speed, the driver applies the throttle or brakes and steers to aim. This was tricky to tune, and the hope was to use the prediction unit to reach the cars limit.</p>
+	<div style="clear:both;"></div>
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!--<h2 class="gameDownload"><a href="https://timbeaudet.com/goods/overgameeditor.zip">.src</a></h2>-->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulations: Learning to Drive</h2>
+	<br>
+	<p class="pindent">
+	<iframe style="float:left; margin-right:15px;" width="320" height="180" src="https://www.youtube.com/embed/pvgh0nr_KN4" frameborder="2" allowfullscreen></iframe>
+		When I had finished working on the sensors and got the artificial driver to navigate Live For Speed using a virtual controller, immediately the challenge became finding a way to drive at the limit of the car, what ever those limits might be. This was a challenge and I decided to try a learning algorithm to let the artificial driver figure it out on their own, that and I was thinking a neural network might be useful giving several points regarding the racing line and other sensor information as input. To train the neural net I'd first need to figure out a simpler learning technique; the genetic algorithm.</p>
+	<p class="pindent">
+		It was fairly easy to develop, actually, it was really easy to develop. The problem was trying to tune the fitness function and genetic algorithm mutation and crossover rates. I had to simplify the problem to a guess the number, which worked reasonable well +/- 1, for most numbers but a few would be +/- 3. This proved the algorithm worked and I applied it to the little bots in a very simple race simulation. The bots just know how far away from the center of the track they currently are, and how fast they are moving towards/away from the center and using this they apply throttle/brake/steering inputs. I have a feeling it converges too quickly, and they don't quite get as fast as a player, but I think that just needs more fitness tuning.</p>
+	<div style="clear:both;"></div>
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
+
+<div class="post">		<!-- Start of content section -->
+	<!-- <h2 class="gameDownload"><a href="https://timbeaudet.com/goods/dev/VacuumSwarm.zip">.zip</a></h2> <!-- Download available -->
+	<h2 class="gameTitle">Artificial Intelligence in Racing Simulators</h2>
+	<br>
+	<p class="pindent">
+		I am very interested in racing, and racing simulations more than arcade racing games. There is a difference between a racing simulation and a racing game. A racing game is created so the player is enjoying the race, is challenged no matter what their skill and physics are perhaps tweaked so that the player can have fun taking that corner at 120mph. In a racing simulation, the physics mimic real world physics. This also means the AI techniques used for games can not be used for racing simulations for multiple reasons.</p>
+	<p class="pindent">
+		First the artificial intelligence in games are meant to be fun, provide challenge to player skills of a wide range and can therefore get away with techniques. Some games allow the AI to move the car and handle the car collisions directly, perhaps differently than the player car. However, in a simulation, allowing the AI to have direct control over the car like this is unacceptable, the AI driver should be limited to the same controls as the player; steering, throttle, brakes and shifter. Another common technique for balancing game challenge is catch-up mode, where the AI speeds up 110% when the player is far ahead, or slows to 90% when the player is behind. In a true simulator you can't just allow the driver to press the throttle to 110%. So this project is to research some of these techniques and decide what is or is not acceptable for the simulation environment.</p>
+	<p class="pindent">
+		Another goal it to give the artificial driver sensors for the visual reference points, physical feelings and other information. Rather than accessing information directly the driver needs to work through the sensors, which I plan to add a 'blurring' layer so the judgment can be wrong. The idea is to make an intelligent driver that can drive a car at the physical limits, without knowledge or ability to tweak the cars physical behavior and behave more like a human with reaction times, blurry judgment and no knowledge of specifics.</p>
+	<p class="pindent">
+		Currently I have been using a virtual controller, and the information provided from the <a href="www.lfs.net">Live For Speed Racing Simulator</a> to run my tests. This proves that the AI system will not depend on direct physical information, can only control a car exactly the same way the player can and will work under extreme settings!</p>
+	<div style="clear:both;"></div>		
+</div>					<!-- End of content section -->
+
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+
+<BR>
+<P class="copywrite">Copyright &copy 2016, Tim Beaudet</P>
+
+</DIV>
+</BODY>
+</HTML>
