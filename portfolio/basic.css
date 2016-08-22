@@ -11,7 +11,7 @@ body {
 
 
 a:link, a:visited { color:#2E9FFF; }
-a:hover, a:active { color:#0077CC; }
+a:hover, a:active { color:#005299; }
 
 p { text-align:justify; font-size: 1.0em; }
 p.pindent { text-indent:15px; }
@@ -37,7 +37,10 @@ a.menu:link, a.menu:visited {
 	text-transform:uppercase;
 	padding:0px;
 } 
-a.menu:hover, a.menu:active { background-color:#0077CC }
+a.menu:hover, a.menu:active { 
+	color:#B3D0FF;
+	background-color:#005299;
+}
 
 
 .titleimg {
