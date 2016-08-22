@@ -3,23 +3,23 @@ body {
 	font-size: 62.5%;
 	font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif;
 	background-color:#000000;
+	/*color:#B3D0FF;*/
 	color:#FFFFFF;
 	
 	margin: 0;
 	padding: 15px 0px 0px 0px;
 }
 
-
 a:link, a:visited { color:#2E9FFF; }
 a:hover, a:active { color:#005299; }
 
 p { text-align:justify; font-size: 1.0em; }
 p.pindent { text-indent:15px; }
+p.contact { text-align:center; font-size: 110%; }
 
 h1 { color:#2E9FFF; text-align:center; text-decoration:underline; margin:0px; }
 h2 { color:#2E9FFF; text-align:left; margin:0px; }
 h3 { color:#2E9FFF; text-align:left; margin:0px; }
-
 
 /* FOR THE MENU BAR */
 ul.menu { list-style-type:none; margin:0; padding:0; overflow:hidden; }
@@ -71,6 +71,7 @@ a.menu:hover, a.menu:active {
 	width:200px;
 	margin: 0px auto;
 	font-size: 1.25em;
+	text-align:center;
 }
 
 

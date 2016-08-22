@@ -7,6 +7,10 @@
 </head>
 <body>
 
+<!--   Tim Beaudet is a Game Developer and has put this website together with serious help from google and other    -->
+<!-- developers. Please realize these basic css/html skills do not reflect his expertise with developing games      -->
+<!-- especially since C++ is his primary playground. Tim is always looking for projects to collaborate or work on.  -->
+
 <div class="page">
 <img class="titleimg" src="imgs/titlebar.png" alt="TimBeaudet::GameDeveloper();" title="TimBeaudet::GameDeveloper();">
 
@@ -31,26 +35,26 @@
 
 <div class="post">		<!-- Start of content section -->
 <h2>April  2012</h2>
-<p class="pindent">Ludum Dare 23 was held April 20th-23rd and was the first time I teamed up with someone.  The theme was 'Tiny World', my partner 'joekinley'.  In less than 72 hours we made a short strategy/puzzle game where the world falls apart.  I need to write up a proper post-mortem, and will update here once I do; for now though, you can play the jam version of the game: <a href="http://www.timbeaudet.com/goods/ld23/cracked/">Cracked!</a></p>
-<p class="pindent">This was my first compo aiming for Flash with ActionScript3, and the FlashPunk framework.  It was a nice change of pace.  Also having the art, sounds and content created by the other collaborator, joekinley, was an amazing change of pace; it allowed me to focus 100% on the programming side, and really polish out a few things.</p>
+<p class="pindent">Ludum Dare 23 was held April 20th-23rd and was the first time I teamed up with someone. The theme was 'Tiny World', my partner 'joekinley'. In less than 72 hours we made a short strategy/puzzle game where the world falls apart. I need to write up a proper post-mortem, and will update here once I do; for now though, you can play the jam version of the game: <a href="http://www.timbeaudet.com/goods/ld23/cracked/">Cracked!</a></p>
+<p class="pindent">This was my first compo aiming for Flash with ActionScript3, and the FlashPunk framework. It was a nice change of pace. Also having the art, sounds and content created by the other collaborator, joekinley, was an amazing change of pace; it allowed me to focus 100% on the programming side, and really polish out a few things.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>March  2012</h2>
-<p class="pindent">It can be quite rewarding to work on projects with others, outside of a job or other necessity.  I often lurk around on the <a href="http://ludumdare.com/">#ludumdare</a> irc channel, and often check around for people to collaborate with.  The month I've started two such collaboration projects with others.  It is quite rewarding to help others learn the ropes, and or even learn something new myself.</p>
-<p class="pindent">The first project started was a bit short lived, but the general idea was to be a top-down shoot 'em up defense game where the players projectiles bounce endlessly off the wall.  The project got off to a good start but the downfall to working with others, is one side having more interest and energy than the other.</p>
-<p class="pindent">The second was a three-dimensional platformer, inspired by this <a href="http://www.youtube.com/watch?v=8TgyrRFlvmo">video</a> of a first person super mario.  You can check out an early <a href="www.youtube.com/watch?v=8TgyrRFlvmo&hd=1">video</a> of the project though there is already a bit more going for it, and I am looking forward to adding more intelligent behavior to the camera.  An updated <a href="http://www.youtube.com/watch?v=SqJ3hUdNbKg&hd=1">video</a> was made with better collision and the camera looks when jumping.</p>
+<p class="pindent">It can be quite rewarding to work on projects with others, outside of a job or other necessity. I often lurk around on the <a href="http://ludumdare.com/">#ludumdare</a> irc channel, and often check around for people to collaborate with. The month I've started two such collaboration projects with others. It is quite rewarding to help others learn the ropes, and or even learn something new myself.</p>
+<p class="pindent">The first project started was a bit short lived, but the general idea was to be a top-down shoot 'em up defense game where the players projectiles bounce endlessly off the wall. The project got off to a good start but the downfall to working with others, is one side having more interest and energy than the other.</p>
+<p class="pindent">The second was a three-dimensional platformer, inspired by this <a href="http://www.youtube.com/watch?v=8TgyrRFlvmo">video</a> of a first person super mario. You can check out an early <a href="www.youtube.com/watch?v=8TgyrRFlvmo&hd=1">video</a> of the project though there is already a bit more going for it, and I am looking forward to adding more intelligent behavior to the camera. An updated <a href="http://www.youtube.com/watch?v=SqJ3hUdNbKg&hd=1">video</a> was made with better collision and the camera looks when jumping.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>February 2012</h2>
-<p class="pindent">I decided to open up the old OverGameEditor Framework project, to see if I could get it more user friendly.  A prior problem was that there were two windows, Editor and Game.  This meant the menu, on the Editor window, would not respond to 'ALT' when the Game window had focus.  It also disrupted my ability to allow the game to add hot-keys like CTRL-S for save.  Last night I decided to look into this further, to see if there were ways to make it more useable.</p>
-<p class="pindent">Instead of creating a Editor window, I decided to modify the existing Game window.  Of course, this assumes the Game window does not have a MenuBar, or StatusBar - but I feel that is a safe enough assumption for games.  But then came a new problem, handling the WM_COMMAND messages for the MenuBar, and possibly other future objects.  Digging through MSDN I found a way to achieve this with hooks.  So I can substitute my own WndProc, handle what the Editor needs to, then call the existing WndProc so the Game / engine functions properly.</p>
-<p class="pindent">Genius!  I also prototyped the ability to actually add a hot-key / accelerator table, right-click context popup menu, and got the status bar to appear again.  The only missing functionality I need to figure out what I want tot do with is the EditArea, which holds several controls.  My idea is to put this in it's own separate window, situated next to the game window.  Since it wouldn't have a MenuBar or need for hotkeys without first being given focus, this wouldn't hurt the usability.</p>
+<p class="pindent">I decided to open up the old OverGameEditor Framework project, to see if I could get it more user friendly. A prior problem was that there were two windows, Editor and Game. This meant the menu, on the Editor window, would not respond to 'ALT' when the Game window had focus. It also disrupted my ability to allow the game to add hot-keys like CTRL-S for save. Last night I decided to look into this further, to see if there were ways to make it more useable.</p>
+<p class="pindent">Instead of creating a Editor window, I decided to modify the existing Game window. Of course, this assumes the Game window does not have a MenuBar, or StatusBar - but I feel that is a safe enough assumption for games. But then came a new problem, handling the WM_COMMAND messages for the MenuBar, and possibly other future objects. Digging through MSDN I found a way to achieve this with hooks. So I can substitute my own WndProc, handle what the Editor needs to, then call the existing WndProc so the Game / engine functions properly.</p>
+<p class="pindent">Genius!  I also prototyped the ability to actually add a hot-key / accelerator table, right-click context popup menu, and got the status bar to appear again. The only missing functionality I need to figure out what I want tot do with is the EditArea, which holds several controls. My idea is to put this in it's own separate window, situated next to the game window. Since it wouldn't have a MenuBar or need for hotkeys without first being given focus, this wouldn't hurt the usability.</p>
 <p class="pindent">OverGameEditor Framework 2.0 is still in the prototyping / planning stages, but shouldn't take long once I nail that down.</p> 
 </div>					<!-- End of content section -->
 
@@ -58,29 +62,29 @@
 
 <div class="post">		<!-- Start of content section -->
 <h2>January 2012</h2>
-<p class="pindent">Started work on the physics system that will drive a car around for the AIRS project I thought of in 2010.  This is coming along better than expected, I've finally broke down a few mathematical/physics walls that had been holding me back; namely 3D rotational physics.  Now I just need to get over the next wall; how to handle gravity and the contact with the ground.  Currently handled with some undesirable sideeffects.</p>
-<p class="pindent">Along side that project, I started learning Flash, or rather; ActionScript3.  Currently using the FlashPunk api to work on what may be the first ever personal game to make me a few dimes; dollars if I am lucky.  However my momentum has been up and down, drastically.  It can't hurt to keep working on it, to see where it goes.</p>
+<p class="pindent">Started work on the physics system that will drive a car around for the AIRS project I thought of in 2010. This is coming along better than expected, I've finally broke down a few mathematical/physics walls that had been holding me back; namely 3D rotational physics. Now I just need to get over the next wall; how to handle gravity and the contact with the ground. Currently handled with some undesirable sideeffects.</p>
+<p class="pindent">Along side that project, I started learning Flash, or rather; ActionScript3. Currently using the FlashPunk api to work on what may be the first ever personal game to make me a few dimes; dollars if I am lucky. However my momentum has been up and down, drastically. It can't hurt to keep working on it, to see where it goes.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>December 2011</h2>
-<p class="pindent">Participated in my second LudumDare event, this time the theme was Alone.  Going into the weekend I had plans to pick something simple, that I could finish in one day and polish the second.  However, I ended up taking of more than I could chew, creating a game of Football where you control a player that is all alone, against another team.  Down by a substantial amount, you must make a comeback in the final quarter of the game.  It did not end up quite where I wanted, despite tweaking gameplay for about one-third of the time available.  Play it <a href="http://timbeaudet.com/goods/ld22/tenyardsalone.zip">here.</a></p>
+<p class="pindent">Participated in my second LudumDare event, this time the theme was Alone. Going into the weekend I had plans to pick something simple, that I could finish in one day and polish the second. However, I ended up taking of more than I could chew, creating a game of Football where you control a player that is all alone, against another team. Down by a substantial amount, you must make a comeback in the final quarter of the game. It did not end up quite where I wanted, despite tweaking gameplay for about one-third of the time available. Play it <a href="http://timbeaudet.com/goods/ld22/tenyardsalone.zip">here.</a></p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>September 2011</h2>
-<p class="pindent">Participated in <a href="http://www.ludumdare.com">Ludum Dare</a> for the first time.  Make a game in 48 hours, on a weekend where hundreds of participants, 599 during this particular weekend event.  The theme was Escape, so I made <a href="http://timbeaudet.com/goods/ld21/EscapeLD21.zip">this</a> quick physics based game where the player controls a gliding plane through a tunnel.  I ran into many complications that stalled me and wasted a lot of the 48 hours available.  The end result looked better than I had expected, being a programmer art is not my bright point.</p>
+<p class="pindent">Participated in <a href="http://www.ludumdare.com">Ludum Dare</a> for the first time. Make a game in 48 hours, on a weekend where hundreds of participants, 599 during this particular weekend event. The theme was Escape, so I made <a href="http://timbeaudet.com/goods/ld21/EscapeLD21.zip">this</a> quick physics based game where the player controls a gliding plane through a tunnel. I ran into many complications that stalled me and wasted a lot of the 48 hours available. The end result looked better than I had expected, being a programmer art is not my bright point.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>June/July 2010</h2>
-<p class="pindent">Started working on a tool for editing levels/games that would combine benefits of an external game editor; menus, edit controls, etc.  With those of an in-game editor; less code, quick access etc.  Written for Win32 this editor can popup over the game without any special code, regardless of the engine/framework used to create it.  Include a header, link a library, and overload a few functions, then make the game editor of your dreams.</p>
+<p class="pindent">Started working on a tool for editing levels/games that would combine benefits of an external game editor; menus, edit controls, etc. With those of an in-game editor; less code, quick access etc. Written for Win32 this editor can popup over the game without any special code, regardless of the engine/framework used to create it. Include a header, link a library, and overload a few functions, then make the game editor of your dreams.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
@@ -88,11 +92,11 @@
 <div class="post">		<!-- Start of content section -->
 <h2>March 2010</h2>
 <h3 style="{ text-decoration:underline; }">3/1/2010</h3>
-<p class="pindent">Not much progress on the AIRS project, website or really anything.  Throughout most of February, and so far the start of March my programming motivation has been deteriorating.  It is not the lack of desire either, just the lack of effort or concentration.  It seems everytime I try starting a task I get bored/sidetracked/or discouraged in some way.  This is becoming rather crazy, and for my programming drive - I really can't wait until it ends.</p>
-<p class="pindent">On the otherhand, the team that started in early February has met up again, and it looks like a small shoot-em up game, named Hull Breach will be our project.  The idea here is to keep the game size, scale and scope as small as possible.  This is primarily so that the team can create something polished, good looking, sounding and most importantly - fun to play!  It won't be ground breakingly innovative, but the team, Hooked, is considering gameplay to be a very important aspect of the project.</p>
+<p class="pindent">Not much progress on the AIRS project, website or really anything. Throughout most of February, and so far the start of March my programming motivation has been deteriorating. It is not the lack of desire either, just the lack of effort or concentration. It seems everytime I try starting a task I get bored/sidetracked/or discouraged in some way. This is becoming rather crazy, and for my programming drive - I really can't wait until it ends.</p>
+<p class="pindent">On the otherhand, the team that started in early February has met up again, and it looks like a small shoot-em up game, named Hull Breach will be our project. The idea here is to keep the game size, scale and scope as small as possible. This is primarily so that the team can create something polished, good looking, sounding and most importantly - fun to play!  It won't be ground breakingly innovative, but the team, Hooked, is considering gameplay to be a very important aspect of the project.</p>
 
 <h3 style="{ text-decoration:underline; }">3/19/2010</h3>
-<p class="pindent">A small weekend project started, Vacuum Swarm.  The idea is experimental, with the player only being able to teleport from one area to another, using walls and physics from bumper objects to change velocity.  A swarm follows the player, hurting the player when close enough.  The player tries to collect all the swarm objects into a container within the level.</p>
+<p class="pindent">A small weekend project started, Vacuum Swarm. The idea is experimental, with the player only being able to teleport from one area to another, using walls and physics from bumper objects to change velocity. A swarm follows the player, hurting the player when close enough. The player tries to collect all the swarm objects into a container within the level.</p>
 <p class="pindent">Due to the nature of the experimental project things change.</p>
 </div>					<!-- End of content section -->
 
@@ -100,23 +104,23 @@
 
 <div class="post">		<!-- Start of content section -->
 <h2>February 2010</h2>
-<p class="pindent">Some of my on-going personal projects have been added to the projects, although more information will be provided when possible to update.  Currently the Artificial Intelligence in Racing Simulations (A.I.R.S.) project is one of the main projects being worked on.  Though a team is gathering to work on a small, but polished project - will see what the outcome is as time moves on.</p>
+<p class="pindent">Some of my on-going personal projects have been added to the projects, although more information will be provided when possible to update. Currently the Artificial Intelligence in Racing Simulations (A.I.R.S.) project is one of the main projects being worked on. Though a team is gathering to work on a small, but polished project - will see what the outcome is as time moves on.</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 
 <div class="post">		<!-- Start of content section -->
 <h2>January 2010</h2>
-<p class="pindent">I used my freetime to start working on this website, to share my work and knowledge with others.  Content is still being added, and it will take a lot more of my time, and effort, to complete this site.  Please be patient during this period of construction!</p>
+<p class="pindent">I used my freetime to start working on this website, to share my work and knowledge with others. Content is still being added, and it will take a lot more of my time, and effort, to complete this site. Please be patient during this period of construction!</p>
 </div>					<!-- End of content section -->
 
 <!-- ################################################################################# -->
 <!-- ################################################################################# -->
 <!-- ################################################################################# -->
 
-<br>
-<p class="copywrite">Copyright &copy 2016, Tim Beaudet</p>
+<BR>
+<P class="copywrite">Copyright &copy 2016, Tim Beaudet</P>
 
-</div>
-</body>
-</html>
+</DIV>
+</BODY>
+</HTML>
