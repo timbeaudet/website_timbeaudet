@@ -21,10 +21,32 @@ h1 { color:#2E9FFF; text-align:center; text-decoration:underline; margin:0px; }
 h2 { color:#2E9FFF; text-align:left; margin:0px; }
 h3 { color:#2E9FFF; text-align:left; margin:0px; }
 
-/* FOR THE MENU BAR */
-ul.menu { list-style-type:none; margin:0; padding:0; overflow:hidden; }
-li.menu { float:left; }		/* a.menu:link width should be (960px / X); where X is the num of menu items. */
-a.menu:link, a.menu:visited {
+
+/* -------------------------------------------- */
+/*                    All Pages                 */
+/* -------------------------------------------- */
+.pageHeader {
+	width:960;
+	height:150;
+}
+
+.page {
+	width:960px;
+	margin: 0px auto;
+	font-size: 1.3em;
+}
+
+.pageCopywrite {
+	font-size: 9px;
+	text-align:center;
+}
+
+/* -------------------------------------------- */
+/*              All pages, menu bar             */
+/* -------------------------------------------- */
+ul.pageMenu { list-style-type:none; margin:0; padding:0; overflow:hidden; }
+li.pageMenu { float:left; }		/* a.menu:link width should be (960px / X); where X is the num of menu items. */
+a.pageMenu:link, a.pageMenu:visited {
 	color:#FFFFFF; 
 	background-color:#2E9FFF;
 	display:block;
@@ -37,36 +59,22 @@ a.menu:link, a.menu:visited {
 	text-transform:uppercase;
 	padding:0px;
 } 
-a.menu:hover, a.menu:active { 
+a.pageMenu:hover, a.pageMenu:active { 
 	color:#B3D0FF;
 	background-color:#005299;
 }
 
-
-.titleimg {
-	width:960;
-	height:150;
-}
-
-.page {
-	width:960px;
-	margin: 0px auto;
-	font-size: 1.3em;
-}
-
-.post {				/* FOR THE CONTENT SECTION */
+.pagePost {				/* FOR THE CONTENT SECTION */
 	margin: 0 0 0 0;
 	padding: 1px 1px 1px 1px;
 	border: 2px solid #2E9FFF;
-	border-radius: 16px; padding: 12px; margin: 16px 0px;
+	border-radius: 16px; padding: 0px 10px 10px 10px; margin: 8px 0px;
 	font-size: 1.0em;
 }
 
-.copywrite {
-	font-size: 9px;
-	text-align:center;
-}
-
+/* -------------------------------------------- */
+/*                 Contact page                 */
+/* -------------------------------------------- */
 .contact {
 	width:200px;
 	margin: 0px auto;
@@ -74,22 +82,16 @@ a.menu:hover, a.menu:active {
 	text-align:center;
 }
 
-
-/* FOR THE PERSONAL PROJECTS PAGE */
+/* -------------------------------------------- */
+/*            Personal projects page            */
+/* -------------------------------------------- */
 h2.gameTitle { color:#2E9FFF; float:left; margin:0px; }
 h2.gameDownload { float:right; margin:0px; }
 h2.sourceDownload { float:right; margin:0px; margin-right:10px; }
 
 img.gameThumbnail { float:left; margin: 0px 10px 0px 0px; width:320; height:240; border:0; }
 img.tinyThumbnail { float:left; margin: 5px 10px 10px 0px; width:96; height:72; border:0; }
-
-.projectPost {				/* FOR THE CONTENT SECTION */
-	margin: 0 0 0 0;
-	padding: 1px 1px 1px 1px;
-	border: 2px solid #2E9FFF;
-	border-radius: 16px; padding: 0px 10px 10px 10px; margin: 16px 0px;
-	font-size: 1.0em;
-}
+/* The above is from old projects page, still used on airs/project, need to update and remove */
 
 .projectTitle {
 	color:#2E9FFF;
@@ -137,16 +139,19 @@ a.projectDownloadButton:hover, a.projectDownloadButton:active {
 	text-decoration: none;
 }
 
+/* -------------------------------------------- */
+/*             Career History page              */
+/* -------------------------------------------- */
+font.careerJobDates { color:#2E9FFF; }
+font.careerGameTitle { color:#2E9FFF; font-weight:bold; }
+font.careerGamePlatform { color:#2E9FFF; }
+font.careerGameReleased { color:#2E9FFF; }
 
-
-
-
-
-/* FOR THE CAREER PROJECTS PAGE */
-font.work_dates { color:#2E9FFF; }
-font.game_title { color:#2E9FFF; font-weight:bold; }
-font.game_platform { color:#2E9FFF; }
-font.game_released { color:#2E9FFF; }
+.careerGameImage {
+	border: 0;
+	width: 32.9%;
+	height: auto;
+}
 
 /* Still using tables on the Career page. */
 td.lytproj_l { font-size: 0.8em; width:50%; text-align:left; }
