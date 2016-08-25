@@ -1,92 +1,87 @@
+<!DOCTYPE HTML SYSTEM>
+<html lang="en">
+<head>
+<link href="../basic.css" rel="stylesheet" type="text/css" media="screen">
+<link href="../favicon.ico" rel="shortcut icon">
+<title>TimBeaudet::GameDeveloper();</title>
+</head>
+<body>
+
+<!--   Tim Beaudet is a Game Developer and has put this website together with serious help from google and other    -->
+<!-- developers. Please realize these basic css/html skills do not reflect his expertise with developing games      -->
+<!-- especially since C++ is his primary playground. Tim is always looking for projects to collaborate or work on.  -->
+
+<div class="page">
+<img class="pageHeader" src="../images/page_header.png" alt="TimBeaudet::GameDeveloper();" title="TimBeaudet::GameDeveloper();">
+
+<ul class="pageMenu">
+  <li class="pageMenu"><a class="pageMenu" href="http://www.timbeaudet.com">Home</a></li>
+  <li class="pageMenu"><a class="pageMenu" href="../../projects.html">Personal</a></li>
+  <li class="pageMenu"><a class="pageMenu" href="../../career.html">Career</a></li>
+  <li class="pageMenu"><a class="pageMenu" href="../../timbeaudet_resume.pdf">Resume</a></li>
+  <li class="pageMenu"><a class="pageMenu" href="../../contact.html">Contact</a></li>
+</ul>
+
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+
+<div class="pagePost">    <!-- Start of content section for About Turn Based Racer-->
+  <p>
+    For about four or five years an idea has been bouncing around inside my little head for a game.  A turn-based racing game.  The idea came after playing a boardgame, that seemed to work quite well but I felt that the amount of management that went on in the board game took away from the fun.  A computer can do all the rule management for the players, thus allowing them to have all the fun withouth the negative side-effects.  A prototype was started, early January 2010.  The prototype includes a hotlap mode for single player, practice and through configuration files the player can setup a direct connection with another player as a server.  There is no user-interface in the prototy[e besides the ability to move the car.
+    <br><br>
+    A user interface <i>(UI)</i> will be the first thing that is required to take this project from the prototype stage to the production stage.  Sounds and a few special effects will also be required.  Some form of basic collision to static objects, like walls, buildings and trees would need to be implemented in the actual game.  Car to car collision is a little more tricky.  A certain mode will allow cars to go through eachothers path.  This will be called "ghost-collision", and any other collision models are not set in stone.
+  </p>
+  <div style="clear:both;"></div>
+</div>
+
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+
+<div class="pagePost">    <!-- Start of content section for Project History -->
+  <p></p>
+  <span class='projectTitle'>Development History:</span>
+  <p>
+  <b><font color=#2E9FFF>January 20th 2010</font></b><br>
+   - Multiplayer connection established, and a full game played.<br>
+   - ADDED: GameCfg.txt.  The game related options belong here instead of specific to a track script.<br>
+   - FIXED: Timing issues, although still not 100% perfect it is much closer.<br>
+   - FIXED: Bug with screen resolutions, car position was not tracked in WorldSpace.<br>
+
+  <BR><B><FONT COLOR=#0080FF>January 17th 2010</FONT></B><BR>
+   - Added a new track environment, wider and easier to learn.<BR>
+   - Car configuration finally feels good.<BR>
+   - ADDED: A full checkpoint system, car needs to pass all checkpoints to complete a lap.<BR>
+   - ADDED: The ability to see the replay<BR>
+   - FIXED: Collision detection with Start/Finish line / checkpoints.</BR>
+   - FIXED: A physics bug that caused issues.<BR>
+  <BR><B><FONT COLOR=#0080FF>January 15th 2010</FONT></B><BR>
+   - ADDED: Start/Finish line.<BR>
+   - Laptimes are now tracked, including best 'session' lap.<BR>
+   - Worked on making the prototype work over the internet.<BR>
+   . . . Ran into issues with connection resetting?  Put on hold.<BR>
+  <BR><B><FONT COLOR=#0080FF>January 12th 2010</FONT></B><BR>
+   - Completely reworked control scheme.<BR>
+  <BR><B><FONT COLOR=#0080FF>January 11th 2010</FONT></B><BR>
+   - ADDED: A car to the track!<BR>
+   . . . Car is movable via mouse input.<BR>
+   - Simulating car control in turn based fashion.<BR>
+  <BR><B><FONT COLOR=#0080FF>January 10th 2010</FONT></B><BR>
+   - Prototype development begins.<BR>
+   - Simple track layout and car created.
+  </P>
+  <div style="clear:both;"></div>
+</div>          <!-- End of content section -->
+
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
+<!-- ################################################################################# -->
 
 
-<HTML>
-<HEAD>
-<TITLE>Tim Beaudet - Turn Based Race</TITLE>
-</HEAD>
+<br>
+<p class="pageCopywrite">Copyright &copy 2016, Tim Beaudet</p>
 
-<BODY BGCOLOR="#000000" TEXT="#FFFFFF" LINK="00FFFF" ALINK="#40FFFF" VLINK="00FFFF">
-
-<TABLE BORDER=0 ALIGN="center">
-  <!-- TODO: MAKE A HEADER, and a MENU -->
-  <TR>
-    <TD>
-      <IMG SRC="imgs/titlebar.png">
-    </TD>
-  </TR>
-<TR><TD><BR></TD></TR>
-  <TR>
-    <TD ALIGN="center" WIDTH="1024" CELLSPACING="0" CELLPADDING="0">
-
-      <TABLE ALIGN="left" CELLSPACING="0" CELLPADDING="0">
-        <TR><TD WIDTH="32"> <IMG SRC="../imgs/borderTopLeft.png"></TD><TD WIDTH="960"><IMG SRC="../imgs/borderTop.png"></TD><TD><IMG SRC="../imgs/borderTopRight.png"></TD></TR>
-        <TR><TD HEIGHT="100%"><IMG SRC="../imgs/borderLeft1px.png" WIDTH="100%" HEIGHT=100%></TD><TD BGCOLOR="#000000">
-<!-- START INFORMATION SECTION -->
-	  <H1 ALIGN="left">About: Project-TBR</H1>
-          <P>For about four or five years an idea has been bouncing around inside my little head for a game.  A turn-based racing game.  The idea came after playing a boardgame, that seemed to work quite well but I felt that the amount of management that went on in the board game took away from the fun.  A computer can do all the rule management for the players, thus allowing them to have all the fun withouth the negative side-effects.  A prototype was started, early January 2010.  The prototype includes a hotlap mode for single player, practice and through configuration files the player can setup a direct connection with another player as a server.  There is no user-interface in the prototy[e besides the ability to move the car.<BR><BR>
-A user interface <I>(UI)</I> will be the first thing that is required to take this project from the prototype stage to the production stage.  Sounds and a few special effects will also be required.  Some form of basic collision to static objects, like walls, buildings and trees would need to be implemented in the actual game.  Car to car collision is a little more tricky.  A certain mode will allow cars to go through eachothers path.  This will be called "ghost-collision", and any other collision models are not set in stone.</P>
-
-<!-- FINSIHED INFORMATION SECTION -->
-        </TD><TD><IMG SRC="../imgs/borderRight1px.png" WIDTH="100%" HEIGHT=100%></TD></TR>
-        <TR><TD><IMG SRC="../imgs/borderBottomLeft.png"></TD><TD><IMG SRC="../imgs/borderBottom960px.png"></TD><TD><IMG SRC=",,.imgs/borderBottomRight.png"></TD></TR>
-      </TABLE>
-
-    </TD>
-  </TR>
-<TR><TD><BR></TD></TR>
-  <TR>
-    <TD ALIGN="center" WIDTH="1024" CELLSPACING="0" CELLPADDING="0">
-      <TABLE ALIGN="left" CELLSPACING="0" CELLPADDING="0">
-        <TR><TD WIDTH="32"> <IMG SRC="../imgs/borderTopLeft.png"></TD><TD WIDTH="960"><IMG SRC="../imgs/borderTop960px.png"></TD><TD><IMG SRC="../imgs/borderTopRight.png"></TD></TR>
-        <TR><TD HEIGHT="100%"><IMG SRC="../imgs/borderLeft1px.png" WIDTH="100%" HEIGHT=100%></TD><TD BGCOLOR="#000000">
-
-<!-- START INFORMATION SECTION -->
-
-	<H1>Development History:</H1>
-<P>
-<B><FONT COLOR=#0080FF>January 20th 2010</FONT></B><BR>
- - Multiplayer connection established, and a full game played.<BR>
- - ADDED: GameCfg.txt.  The game related options belong here instead of specific to a track script.<BR>
- - FIXED: Timing issues, although still not 100% perfect it is much closer.<BR>
- - FIXED: Bug with screen resolutions, car position was not tracked in WorldSpace.<BR>
-
-<BR><B><FONT COLOR=#0080FF>January 17th 2010</FONT></B><BR>
- - Added a new track environment, wider and easier to learn.<BR>
- - Car configuration finally feels good.<BR>
- - ADDED: A full checkpoint system, car needs to pass all checkpoints to complete a lap.<BR>
- - ADDED: The ability to see the replay<BR>
- - FIXED: Collision detection with Start/Finish line / checkpoints.</BR>
- - FIXED: A physics bug that caused issues.<BR>
-<BR><B><FONT COLOR=#0080FF>January 15th 2010</FONT></B><BR>
- - ADDED: Start/Finish line.<BR>
- - Laptimes are now tracked, including best 'session' lap.<BR>
- - Worked on making the prototype work over the internet.<BR>
- . . . Ran into issues with connection resetting?  Put on hold.<BR>
-<BR><B><FONT COLOR=#0080FF>January 12th 2010</FONT></B><BR>
- - Completely reworked control scheme.<BR>
-<BR><B><FONT COLOR=#0080FF>January 11th 2010</FONT></B><BR>
- - ADDED: A car to the track!<BR>
- . . . Car is movable via mouse input.<BR>
- - Simulating car control in turn based fashion.<BR>
-<BR><B><FONT COLOR=#0080FF>January 10th 2010</FONT></B><BR>
- - Prototype development begins.<BR>
- - Simple track layout and car created.
-</P>
-
-<!-- FINSIHED INFORMATION SECTION -->
-
-
-        </TD><TD HEIGHT="100%"><IMG SRC="imgs/borderRight1px.png" WIDTH="100%" HEIGHT=100%></TD></TR>
-        <TR><TD><IMG SRC="imgs/borderBottomLeft.png"></TD><TD><IMG SRC="imgs/borderBottom960px.png"></TD><TD><IMG SRC="imgs/borderBottomRight.png"></TD></TR>
-      </TABLE>
-    </TD>
-  </TR>
-
-
-
-
-  <TR><TD ALIGN="center"><BR><FONT SIZE="2">Copyright ©2010, Tim Beaudet</FONT></TD></TR>
-</TABLE>
-
-</BODY>
-</HTML>
+</div>
+</body>
+</html>
