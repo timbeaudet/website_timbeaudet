@@ -62,14 +62,6 @@ a.menu:hover, a.menu:active {
 	font-size: 1.0em;
 }
 
-.projectPost {				/* FOR THE CONTENT SECTION */
-	margin: 0 0 0 0;
-	padding: 1px 1px 1px 1px;
-	border: 2px solid #2E9FFF;
-	border-radius: 16px; padding: 0px 10px 10px 10px; margin: 16px 0px;
-	font-size: 1.0em;
-}
-
 .copywrite {
 	font-size: 9px;
 	text-align:center;
@@ -90,6 +82,14 @@ h2.sourceDownload { float:right; margin:0px; margin-right:10px; }
 
 img.gameThumbnail { float:left; margin: 0px 10px 0px 0px; width:320; height:240; border:0; }
 img.tinyThumbnail { float:left; margin: 5px 10px 10px 0px; width:96; height:72; border:0; }
+
+.projectPost {				/* FOR THE CONTENT SECTION */
+	margin: 0 0 0 0;
+	padding: 1px 1px 1px 1px;
+	border: 2px solid #2E9FFF;
+	border-radius: 16px; padding: 0px 10px 10px 10px; margin: 16px 0px;
+	font-size: 1.0em;
+}
 
 .projectTitle {
 	color:#2E9FFF;
@@ -120,8 +120,10 @@ img.tinyThumbnail { float:left; margin: 5px 10px 10px 0px; width:96; height:72; 
   color: #FFFFFF;
   font-size: 20px;
   background: #2E9FFF;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 5px 0px 0px;
   text-decoration: none;
+  float:right;
 }
 
 a.projectDownloadButton:link, a.projectDownloadButton:visited {
