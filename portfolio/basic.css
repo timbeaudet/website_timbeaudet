@@ -128,6 +128,44 @@ img.tinyThumbnail { float:left; margin: 5px 10px 10px 0px; width:96; height:72; 
   float:right;
 }
 
+
+.wrap
+{
+	width: 32.9%;
+	height: 192px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.frame
+{
+	width: 1280px;
+	height: 786px;
+	border: 0;
+
+	-ms-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	transform: scale(0.25);
+
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.projectVideoFrame {
+	-ms-zoom: 0.8055555;
+	-moz-transform: scale(0.8055555);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(0.8055555);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(0.8055555);
+	-webkit-transform-origin: 0 0;
+}
+
 a.projectDownloadButton:link, a.projectDownloadButton:visited {
 	color:#FFFFFF;
 	background-color:#2E9FFF;
