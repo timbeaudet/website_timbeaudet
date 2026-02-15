@@ -1,0 +1,11 @@
+baseURL = 'https://timbeaudet.com/blog/'
+languageCode = 'en-us'
+title = "TimBeaudet::GameDeveloper()"
+description = "Game Development"
+theme = 'ananke'
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[markup.goldmark.renderer]
+unsafe= true
+
