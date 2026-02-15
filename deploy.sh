@@ -27,6 +27,9 @@ DEPLOY_NAME="production"
 SERVER_USER="timbeaudet@timbeaudet.com"
 SERVER_LOCATION="timbeaudet/public"
 
+echo "Generating Blog with Hugo"
+cd "$DIR/blog" && hugo && cd "$DIR"
+
 echo "Running Ansible"
 export ANSIBLE_CONFIG=$DIR/ansible/ansible.cfg
 ansible-playbook -v -i $DIR/ansible/inventory $DIR/ansible/server_setup.yml
@@ -37,6 +40,7 @@ echo "Deploying to ${DEPLOY_TARGET_LABEL}..."
 #   source repository onto the webhost for any of the things being copied.
 
 rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete "$DIR/public_area/" ${SERVER_USER}:${SERVER_LOCATION}"/"
+rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete "$DIR/blog/public/" ${SERVER_USER}:${SERVER_LOCATION}"/blog/"
 
 # if [[ $DEPLOY_TYRE_BYTES_API == true || $DEPLOY_EVERYTHING == true ]]; then
 # 	#--exclude-from was added because the press kit contains install.php which should not be uploaded. However pay attention to
