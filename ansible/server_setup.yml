@@ -6,13 +6,29 @@
     - username: "{{ lookup('env', 'USER') }}"
 
   tasks:
-    - name: Creates directory
+    - name: Create the Directories
+      with_items:
+        - timbeaudet/public
+        - timbeaudet/contents/temporary/
+        - timbeaudet/contents/goods/
       file:
-        path: timbeaudet/public
+        path: "{{ item }}"
         state: directory
+
     - name: Create symbolic link 
       file:
         #dest is the LINK and src is TARGET
         src: "timbeaudet/public"
         dest: "timbeaudet.com"
+        state: link
+    - name: Create temp symbolic links
+      file:
+        src: "../contents/temporary"
+        dest: "timbeaudet.com/t"
+        #dest: "tyre_bytes/public/t"
+        state: link
+    - name: Create goods symbolic links
+      file:
+        src: "../contents/goods"
+        dest: "timbeaudet.com/goods"
         state: link

@@ -27,26 +27,21 @@ DEPLOY_NAME="production"
 SERVER_USER="timbeaudet@timbeaudet.com"
 SERVER_LOCATION="timbeaudet/public"
 
-echo "Generating Blog with Hugo"
-cd "$DIR/blog" && hugo && cd "$DIR"
-
 echo "Running Ansible"
 export ANSIBLE_CONFIG=$DIR/ansible/ansible.cfg
 ansible-playbook -v -i $DIR/ansible/inventory $DIR/ansible/server_setup.yml
 
+# 2026-03-08: We may wish to consider smooshing the generated static site/blog from hugo and the public_area into
+#   a single generated directory and rsync that, if anything gets more complicted than the exclude from below.
+echo "Generating Blog with Hugo"
+cd "$DIR/blog" && hugo && cd "$DIR"
+
 echo "Deploying to ${DEPLOY_TARGET_LABEL}..."
 
-# 2026-01-25: Added --delete to the eggcelerate/public_area line, this should probably be the default in an rsync from the
-#   source repository onto the webhost for any of the things being copied.
+# 2026-03-08: --exclude-from was added because the symlink directories in ansible that would be removed with --delete
+#   So any symlinks timbeaudet.com/LINK/ (anywhere in public directory, like goods) need to be excluded from the
+#   rsync since the --delete would remove it. And it seems that a symlink acts as a file would for --exclude-from;
+#   so don't add a trailing / like: `goods/`, use just: `goods`
 
-rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete "$DIR/public_area/" ${SERVER_USER}:${SERVER_LOCATION}"/"
-rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete "$DIR/blog/public/" ${SERVER_USER}:${SERVER_LOCATION}"/blog/"
-
-# if [[ $DEPLOY_TYRE_BYTES_API == true || $DEPLOY_EVERYTHING == true ]]; then
-# 	#--exclude-from was added because the press kit contains install.php which should not be uploaded. However pay attention to
-# 	#location of file/path in deploy_excludes.txt as it is already relative ./public/ and adding a ./ will break things as well.
-# 	#to exclude "./public/press/install.php" you need to exclude "press/install.php"
-# 	echo "Deploying TyreBytes API Stuff"
-# 	rsync -avhiP ${SPEED_LIMIT} --progress "./settings_${DEPLOY_NAME}.php" "${SERVER_USER}:${SERVER_LOCATION}/settings.php"
-# 	rsync -avhiP ${SPEED_LIMIT} --progress --exclude-from="./deploy_excludes.txt" "./public/" "${SERVER_USER}:${SERVER_LOCATION}"
-# fi
+rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete --exclude-from "./deploy_excludes.txt" "$DIR/public_area/" ${SERVER_USER}:${SERVER_LOCATION}"/"
+rsync -avhiP ${SPEED_LIMIT} --mkpath --progress --delete  "$DIR/blog/public/" ${SERVER_USER}:${SERVER_LOCATION}"/blog/"

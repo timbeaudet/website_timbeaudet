@@ -1,0 +1,15 @@
+Options -Indexes
+
+# 2026-03-08: ikiwixz has suggested htaccess can disable cache, and this will likely make it much easier when testing
+#   website changes. It also seems the browser still caches the file and will simply ask the server "is this latest?"
+#   May want to chance when we get millions of visitors... that will be a good day!
+Header set Cache-Control "no-cache"
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
