@@ -18,9 +18,9 @@ categories:
 
 <span style="font-weight: 400;">This summer I plan to climb as many 4000 foot peaks in the north east as possible, there are 5 such summits in Vermont, 14 in Maine and 48 in New Hampshire. The New England 67. There are also 46ers of the Adirondacks in New York. This should keep my weekends busy for quite a while.</span>
 
-<span style="font-weight: 400;">Today was meant to be the smallest peak in Vermont, about a 2 hour drive away. I was warned about the trailheads getting too full by 10am, and I didnâ€™t wake up early enough to be confident Iâ€™d get to park. So plans changed. Instead I did a small loop that Dizzy and I took Indie on several times through the winter. We never visited this without snow and I wanted to see how it was. This was a 1 mile loop and had a few spots to look out into a bog. Not the prettiest of views, but nature is healing, I guess.</span><!--more-->
+<span style="font-weight: 400;">Today was meant to be the smallest peak in Vermont, about a 2 hour drive away. I was warned about the trailheads getting too full by 10am, and I didn't wake up early enough to be confident I'd get to park. So plans changed. Instead I did a small loop that Dizzy and I took Indie on several times through the winter. We never visited this without snow and I wanted to see how it was. This was a 1 mile loop and had a few spots to look out into a bog. Not the prettiest of views, but nature is healing, I guess.</span><!--more-->
 
-<span style="font-weight: 400;">I was expecting mosquitoes and bugs to chase me out of a boggy area, but didnâ€™t even need bug spray!</span>
+<span style="font-weight: 400;">I was expecting mosquitoes and bugs to chase me out of a boggy area, but didn't even need bug spray!</span>
 
 <span style="font-weight: 400;">I followed that with Mount Pisgah which rises steeply against Lake Willoughby. This was 1.9 miles up and back for a total of 3.8 miles with 1500ft of elevation gain from the trailhead. The summit sits 2751ft above sea level. The packed dirt trail was wide with rocks and roots jumping towards my feet, trying to trip me.</span>
 
@@ -32,7 +32,7 @@ categories:
 
 <span style="font-weight: 400;">There were so many puppies! Up and down the trail. Golden retrievers, black labs, huskies and more. I lost count.</span>
 
-<span style="font-weight: 400;">Walking up the south trail brings you first to an open rock area to sit and look out toward the south! The south view of Mount Pisgah. I continued on up the trail, one step to a time. The elevation began to drop a bit and a few minutes later I was wondering if I was misled, but I knew there was supposed to be a view of Lake Willoughby below &#8211; so I continued on. Eventually reaching a side trail that dropped down to a rocky ledge.</span>
+<span style="font-weight: 400;">Walking up the south trail brings you first to an open rock area to sit and look out toward the south! The south view of Mount Pisgah. I continued on up the trail, one step to a time. The elevation began to drop a bit and a few minutes later I was wondering if I was misled, but I knew there was supposed to be a view of Lake Willoughby below - so I continued on. Eventually reaching a side trail that dropped down to a rocky ledge.</span>
 
 <span style="font-weight: 400;">The views were amazing and after a few quick pictures I shuffled back into the woods for a snack. The two couples arrived and went out to the overlook and began taking their pictures. I took a break from eating my snack and offered to take a group photo. I have never done anything like that before, but it felt right.</span>
 

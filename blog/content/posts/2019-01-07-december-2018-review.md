@@ -14,8 +14,8 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-465" src="/blog/assets/2019/01/20190107081131_screenshot.png" alt="" width="720" height="445" srcset="/blog/assets/2019/01/20190107081131_screenshot.png 600w, /blog/assets/2019/01/20190107081131_screenshot-300x186.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-  * Total income: <span style="color: #ff9900;">$61.07</span>Â _without personal investments_
-  * Total income: <span style="color: #ff9900;">$3,466.36</span>Â _with personal investments_
+  * Total income: <span style="color: #ff9900;">$61.07</span> _without personal investments_
+  * Total income: <span style="color: #ff9900;">$3,466.36</span> _with personal investments_
   * Total expenses: <span style="color: #ff9900;">$500.03</span>
   * Total hours: <span style="color: #ff9900;">233.25</span>
 

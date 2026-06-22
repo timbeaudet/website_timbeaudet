@@ -16,7 +16,7 @@ categories:
 
 ### [<img loading="lazy" decoding="async" class="aligncenter wp-image-449" src="/blog/assets/2018/10/20181007063324_screenshot.png" alt="" width="720" height="445" srcset="/blog/assets/2018/10/20181007063324_screenshot.png 600w, /blog/assets/2018/10/20181007063324_screenshot-300x186.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-### Income:Â $8687.64
+### Income: $8687.64
 
 <!--more-->
 
@@ -28,17 +28,17 @@ categories:
 
 ### [<img loading="lazy" decoding="async" class="aligncenter wp-image-451" src="/blog/assets/2018/10/20181007063716_screenshot.png" alt="" width="720" height="445" srcset="/blog/assets/2018/10/20181007063716_screenshot.png 600w, /blog/assets/2018/10/20181007063716_screenshot-300x186.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][2]
 
-### Expenses:Â $211.87
+### Expenses: $211.87
 
-  * $181.88 for hardware upgrades &#8211; 500gb nvme ssd and usb3 hub.
+  * $181.88 for hardware upgrades - 500gb nvme ssd and usb3 hub.
   * $29.99 to Adobe Inc, for discounted yearly subscription.
 
-##### This is straight forward, the loot I&#8217;ve spent hard earned gold on during the month.
+##### This is straight forward, the loot I've spent hard earned gold on during the month.
 
 ### Sales / Sources:
 
   * $0.00 for 0 sales of Archer
-  * $48.45 from _superÂ supportive_ Twitch viewers
+  * $48.45 from _super supportive_ Twitch viewers
 
 ##### Important note here, Sales/Sources contains money that may, or may not, have reached the accounts via income. The actual values may be inflated from what actually gets pulled in, say from distribution platforms taking a cut, cuts for transferring money.
 
@@ -54,7 +54,7 @@ categories:
 + $8293.89 ($8505.76 - $211.87)
 =$10506.51</pre>
 
-##### Note: There is another discrepancy from August end to September start; caused by &#8211; lets face it there is something odd going on each month. I will take a deeper look and change the data as necessary when I figure it out.
+##### Note: There is another discrepancy from August end to September start; caused by - lets face it there is something odd going on each month. I will take a deeper look and change the data as necessary when I figure it out.
 
 ### Future Quest:
 

@@ -4,6 +4,7 @@ title: "Making Games for Yourself"
 date: 2026-04-08T15:00:00-04:00
 lastmod: 2026-04-08T15:00:00-04:00
 draft: false
+toc: false
 author: "TimBeaudet"
 authorLink: "https://timbeaudet.com"
 description: "Something something here...."

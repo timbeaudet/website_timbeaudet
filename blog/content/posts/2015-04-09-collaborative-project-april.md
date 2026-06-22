@@ -13,13 +13,13 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-131" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/04/20150408_233100.png" alt="20150408_233100_april" width="720" height="421" srcset="/blog/assets/2015/04/20150408_233100.png 1272w, /blog/assets/2015/04/20150408_233100-300x175.png 300w, /blog/assets/2015/04/20150408_233100-1024x598.png 1024w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-This screenshotÂ doesn&#8217;t show theÂ action of attacking and defending units, but in the last few days I&#8217;ve been leading a small team on a collaborative project: APRIL. Â The project is<!--more--> essentially a small real-time strategy game whereÂ a unit isÂ composed of tiny little nanobots. Â You can order units to combineÂ to become bigger and more powerful, and order them to move around. Â 
+This screenshot doesn't show the action of attacking and defending units, but in the last few days I've been leading a small team on a collaborative project: APRIL. The project is essentially a small real-time strategy game where a unit is composed of tiny little nanobots. You can order units to combine to become bigger and more powerful, and order them to move around. 
 
 [Here is an animated gif][2] of the interactivity as it was a few days ago, you can already see differences in that screenshot.
 
-TheÂ scope of the project wasÂ kept as small as possible so we couldÂ get the mechanics complete and focus on polish and design. Â I was tasked withÂ getting the project started and the first interactivity build complete, from that point on my gears have changed to adding a TileMap, Camera and SoundManager to [TurtleBrains][3].
+The scope of the project was kept as small as possible so we could get the mechanics complete and focus on polish and design. I was tasked with getting the project started and the first interactivity build complete, from that point on my gears have changed to adding a TileMap, Camera and SoundManager to [TurtleBrains][3].
 
-ThisÂ project has been usingÂ a wide spread features of TurtleBrains, showingÂ any lacking areas. Â There are a few and notes have been created which I will beÂ addressing. Â Some have already been addressed, so the framework is constantly improving.
+This project has been using a wide spread features of TurtleBrains, showing any lacking areas. There are a few and notes have been created which I will be addressing. Some have already been addressed, so the framework is constantly improving.
 
 &nbsp;
 

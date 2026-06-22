@@ -10,11 +10,11 @@ categories:
   - Game Development
 
 ---
-Hello Turtles, this post is late, very late and I&#8217;m going to make it straight to the point:
+Hello Turtles, this post is late, very late and I'm going to make it straight to the point:
 
 ## Indie Adventure: July 2018
 
-### Income:Â $413.80
+### Income: $413.80
 
   * $300 Personal Investments
   * $92.66 Archer Sales (birthday sale)
@@ -23,18 +23,18 @@ Hello Turtles, this post is late, very late and I&#8217;m going to make it strai
 
 ##### For the purpose of these reports income is defined as the money that has reached my hands, or more technically the adventure bank/paypal accounts.
 
-### Expenses:Â $168.50
+### Expenses: $168.50
 
   * $5.00 Linode Servers
   * $51.80 Website domain
   * $111.70 Contract for track pieces and blog content.
 
-##### This is straight forward, the loot I&#8217;ve spent hard earned gold on during the month.
+##### This is straight forward, the loot I've spent hard earned gold on during the month.
 
 ### Sales / Sources:
 
   * $84.50 for 2 sales of Archer
-  * $46.87 from _superÂ supportive_ Twitch viewers
+  * $46.87 from _super supportive_ Twitch viewers
 
 ##### Important note here, Sales/Sources contains money that may, or may not, have reached the accounts via income. The actual values may be inflated from what actually gets pulled in, say from distribution platforms taking a cut, cuts for transferring money.
 

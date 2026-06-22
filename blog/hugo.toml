@@ -68,6 +68,14 @@ theme = 'LoveIt'
 		name = "Categories"
 		url = "/categories/"
 		title = ""
+	[[menu.main]]
+		weight = 4
+		identifier = "portfolio"
+		pre = ""
+		post = ""
+		name = "Portfolio"
+		url = "https://timbeaudet.com/portfolio/projects.html"
+		title = ""
 
 # Header config
 [params.header]

@@ -15,13 +15,13 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-356 size-full" src="/blog/assets/2016/10/logistics-852936_1280_falco_pixabay-e1478128813442.jpg" alt="logistics-852936_1280_falco_pixabay" width="720" height="540" />][1]
 
-I&#8217;ve been building up to this for years, and still have someÂ cogs to put into place, but I&#8217;ve finally got a major part working; the master script. The master script is something I started about 6 months ago now, wow, and ran into some issues. First I needed it to recursively search directories and run a set of scripts that would be part of the auto build process. These scripts have been<!--more--> part of my 
+I've been building up to this for years, and still have some cogs to put into place, but I've finally got a major part working; the master script. The master script is something I started about 6 months ago now, wow, and ran into some issues. First I needed it to recursively search directories and run a set of scripts that would be part of the auto build process. These scripts have been<!--more--> part of my 
 
-[template project][2]Â forÂ many years waiting.
+[template project][2] for many years waiting.
 
-Just searching and calling the scripts, if they exist, was not enough though. If one of the steps failed, say there are no updates, or the build failed, then the rest of the scripts should not be called, so I neededÂ the ability to pass back a value to theÂ master script to halt that process if needed. I finally have this working, for batch scripts, and amÂ that much closer to having a fully automated build system, <span style="text-decoration: underline;">of my own</span>.
+Just searching and calling the scripts, if they exist, was not enough though. If one of the steps failed, say there are no updates, or the build failed, then the rest of the scripts should not be called, so I needed the ability to pass back a value to the master script to halt that process if needed. I finally have this working, for batch scripts, and am that much closer to having a fully automated build system, <span style="text-decoration: underline;">of my own</span>.
 
-It was relatively easy to send a return value back in batch, but the difficult part was doing it within a loop. See, batch scripts don&#8217;t work like C++ or other languages, instead the FOR command contains ALL the commands within. What this means is when the interpreter reads &#8220;FOR &#8230;&#8221; anything in the &#8230; gets expanded and then executed multiple times as needed for the loop.
+It was relatively easy to send a return value back in batch, but the difficult part was doing it within a loop. See, batch scripts don't work like C++ or other languages, instead the FOR command contains ALL the commands within. What this means is when the interpreter reads "FOR ..." anything in the ... gets expanded and then executed multiple times as needed for the loop.
 
 [cpp]  
 @ECHO off  
@@ -42,7 +42,7 @@ REM echo no %%i file here
 )  
 [/cpp]
 
-This bit of code will alwaysÂ continue like normal because of the above reasons. Instead what is needed it a way to delay the expansion so that it happens when the command is executed vs when it is read.Â Batch scripts actually have a way to do this, though turned off by default. Enter the commandÂ &#8220;help set&#8221; in command prompt and read about delayedÂ environment variable expansion. Essentially, one must use the command SETLOCAL ENABLEDELAYEDEXPANSION to allow this. In addition to enabling that behavior the variable must be treated with exclamation ! marks. !variable!
+This bit of code will always continue like normal because of the above reasons. Instead what is needed it a way to delay the expansion so that it happens when the command is executed vs when it is read. Batch scripts actually have a way to do this, though turned off by default. Enter the command "help set" in command prompt and read about delayed environment variable expansion. Essentially, one must use the command SETLOCAL ENABLEDELAYEDEXPANSION to allow this. In addition to enabling that behavior the variable must be treated with exclamation ! marks. !variable!
 
 [cpp]  
 @ECHO off  
@@ -66,7 +66,7 @@ REM echo no %%i file here
 )  
 [/cpp]
 
-ThisÂ allowed theÂ loop to process the return value correctly and if one of the scripts returns a non-zero value the rest of the scripts will get skipped from the early break out of the loop. I&#8217;d like to thankÂ JÃ¯n Muhjo ofÂ [Ayphix Entertainment][3]Â for helping create the recursive search and call, and g12345 fromÂ [LudumDare IRC][4] for helping me figure out the delayed expansion issue.
+This allowed the loop to process the return value correctly and if one of the scripts returns a non-zero value the rest of the scripts will get skipped from the early break out of the loop. I'd like to thank JÃ¯n Muhjo of [Ayphix Entertainment][3] for helping create the recursive search and call, and g12345 from [LudumDare IRC][4] for helping me figure out the delayed expansion issue.
 
 If the automated build system seems like it would be useful for you, [grab it from GitHub!][5]
 

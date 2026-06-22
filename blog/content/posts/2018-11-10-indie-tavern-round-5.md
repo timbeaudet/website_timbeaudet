@@ -34,7 +34,7 @@ categories:
   * $13.95 to Dreamhost for TurtleBrains domain.
   * $29.99 to Adobe Inc, for discounted yearly subscription.
 
-##### This is straight forward, the loot I&#8217;ve spent hard earned gold on during the month.
+##### This is straight forward, the loot I've spent hard earned gold on during the month.
 
 ### Sales / Sources:
 

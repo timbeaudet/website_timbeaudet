@@ -10,6 +10,6 @@ categories:
   - Game Development
 
 ---
-Recently a lot of changes have started happening to my site, to make it cleaner, more professional and most importantly a place I can easily update.Â  Because lets face it, without something easy, I just won&#8217;t do it.
+Recently a lot of changes have started happening to my site, to make it cleaner, more professional and most importantly a place I can easily update. Because lets face it, without something easy, I just won't do it.
 
 Stay tuned for updates to pop-up as I add posts relating to current, previous and new projects.

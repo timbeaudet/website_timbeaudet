@@ -14,7 +14,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-362 size-full" src="/blog/assets/2016/10/turtlebrains_on_linux.png" alt="turtlebrains_on_linux" width="720" height="400" srcset="/blog/assets/2016/10/turtlebrains_on_linux.png 720w, /blog/assets/2016/10/turtlebrains_on_linux-300x167.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-Upon starting [TurtleBrains][2] it was planned to support many major platforms. _Not so_ recently Linux support was added, actuallyÂ TurtleBrainsÂ had been compiling on Linux, and even running with <span style="font-family: 'Lucida Console', monospace;">#define tb_legacy_gl_forced</span> in tbi_renderer.h (or compilation settings). This of course is not very<!--more--> user friendly, and it seemed to have a few issues with text so a game was never actually released, nor support claimed.
+Upon starting [TurtleBrains][2] it was planned to support many major platforms. _Not so_ recently Linux support was added, actually TurtleBrains had been compiling on Linux, and even running with <span style="font-family: 'Lucida Console', monospace;">#define tb_legacy_gl_forced</span> in tbi_renderer.h (or compilation settings). This of course is not very<!--more--> user friendly, and it seemed to have a few issues with text so a game was never actually released, nor support claimed.
 
 The issue for several months (probably close to 9 of them) was an inability to create the the OpenGL 3.2 Core context. After combing through the code for two days, and comparing against several tutorials and having help from the [#LudumDare irc][3] channel, the issue finally emerged.
 
@@ -31,7 +31,7 @@ Not being super familiar with the platform/GLX I had unknowingly used GLX\_NONE 
 
 I repeat; NOT ZERO
 
-This actually caused a really weird crash that, with CodeLite IDE debugger, (aka GDB),Â appeared to be an issue calling the glXCreateContextAttribsARB function, and I got hung up thinking the function pointer was invalid.Â _The actual error was attempting to access memory out of bounds since GLX_NONE was not signifying the end of the attributes array._
+This actually caused a really weird crash that, with CodeLite IDE debugger, (aka GDB), appeared to be an issue calling the glXCreateContextAttribsARB function, and I got hung up thinking the function pointer was invalid. _The actual error was attempting to access memory out of bounds since GLX_NONE was not signifying the end of the attributes array._
 
 After fixing this issue I was able to make an experimental Linux build of my LD36 game, [Ancient Robots][4].
 

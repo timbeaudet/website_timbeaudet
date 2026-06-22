@@ -20,18 +20,18 @@ Here is a game I made in a single hour for OneHourGameJam the theme, and thus ti
 
 [Flight (for Windows)][3]
 
-Working on a game in an hour is a great way to learn the weaknesses about your development pipeline, be it in coding, art or audio. Â TheÂ result is almost always a project that will get thrown away, seriously it took 60 minutes to make, but the experience is certain to teach you something and sharpen game development skills.
+Working on a game in an hour is a great way to learn the weaknesses about your development pipeline, be it in coding, art or audio. The result is almost always a project that will get thrown away, seriously it took 60 minutes to make, but the experience is certain to teach you something and sharpen game development skills.
 
-This was the third time I had tried the experiment and the first time that TurtleBrains had a working entity manager. Â In both previous attempts I had to spend far too much timeÂ making sure the entities were cleaned up,Â so last week I worked on entity management and behavior system, but was unable to really test it until now. Â The great thing is this produces a real-world test on these systems.
+This was the third time I had tried the experiment and the first time that TurtleBrains had a working entity manager. In both previous attempts I had to spend far too much time making sure the entities were cleaned up, so last week I worked on entity management and behavior system, but was unable to really test it until now. The great thing is this produces a real-world test on these systems.
 
-The art from this project was taken from voxel&#8217;s MiniLD sheet just moments before theÂ jam started, and so was not done within the hour. Â Immediately had a problem with the template project but with a slight script edit, and some copy/pasting of the concept_kit I had things ready to go. Â Flight immediately put Flappy Bird into my mind, and I decided to run with a clone of that due to scope.
+The art from this project was taken from voxel's MiniLD sheet just moments before the jam started, and so was not done within the hour. Immediately had a problem with the template project but with a slight script edit, and some copy/pasting of the concept_kit I had things ready to go. Flight immediately put Flappy Bird into my mind, and I decided to run with a clone of that due to scope.
 
-Created a blockÂ object that would remove itself from the entity manager once it gets too far off screen, and has a constant velocity toward the right with collision. Â The player object waits for the user to press either the up or space key to start flying, which increases score and tells the gameplay scene to begin spawning blocks. Â Add in a score and best score and the game was actually fairly complete.
+Created a block object that would remove itself from the entity manager once it gets too far off screen, and has a constant velocity toward the right with collision. The player object waits for the user to press either the up or space key to start flying, which increases score and tells the gameplay scene to begin spawning blocks. Add in a score and best score and the game was actually fairly complete.
 
 **Things learned during this hour:**
 
-  * NeedÂ to add a template_entity to the template project.
-  * The collision and entity management added to TurtleBrains was **simplyÂ amazing and powerful**.
+  * Need to add a template_entity to the template project.
+  * The collision and entity management added to TurtleBrains was **simply amazing and powerful**.
   * Audio failed when using bfxr on the Mac, perhaps endianness?
 
  [1]: http://www.timbeaudet.com/blog/2015/05/15/1hgj-entry-flight/

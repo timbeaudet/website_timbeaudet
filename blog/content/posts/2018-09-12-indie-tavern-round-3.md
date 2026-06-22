@@ -14,7 +14,7 @@ categories:
 
 ### [<img loading="lazy" decoding="async" class="aligncenter wp-image-441" src="/blog/assets/2018/09/2018_financials.png" alt="" width="720" height="445" srcset="/blog/assets/2018/09/2018_financials.png 600w, /blog/assets/2018/09/2018_financials-300x186.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-### Income:Â $435.62
+### Income: $435.62
 
 <!--more-->
 
@@ -29,17 +29,17 @@ categories:
 
 ### [<img loading="lazy" decoding="async" class="aligncenter wp-image-443" src="/blog/assets/2018/09/201808_in_and_out.png" alt="" width="720" height="445" srcset="/blog/assets/2018/09/201808_in_and_out.png 600w, /blog/assets/2018/09/201808_in_and_out-300x186.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-### Expenses:Â $89.99
+### Expenses: $89.99
 
   * $60.00 to tsjost for automating Game Server setup.
   * $29.99 to Adobe Inc, for discounted yearly subscription.
 
-##### This is straight forward, the loot I&#8217;ve spent hard earned gold on during the month.
+##### This is straight forward, the loot I've spent hard earned gold on during the month.
 
 ### Sales / Sources:
 
   * $9.00 for 2 sales of Archer
-  * $38.33 from _superÂ supportive_ Twitch viewers
+  * $38.33 from _super supportive_ Twitch viewers
 
 ##### Important note here, Sales/Sources contains money that may, or may not, have reached the accounts via income. The actual values may be inflated from what actually gets pulled in, say from distribution platforms taking a cut, cuts for transferring money.
 

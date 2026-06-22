@@ -12,14 +12,14 @@ categories:
   - Programming
 
 ---
-It is pretty late into the month already.Â Â IÂ failed to make a singleÂ gameÂ since I&#8217;ve joined @OneGameAMonth inÂ September, I should have two by this point in time! Â So November is going to be different. Â Initially I was going to jump into NaNoWriMo and do some creative writing, but game development is important to me, andÂ I need to work out those muscles.
+It is pretty late into the month already.  I failed to make a single game since I've joined @OneGameAMonth in September, I should have two by this point in time! So November is going to be different. Initially I was going to jump into NaNoWriMo and do some creative writing, but game development is important to me, and I need to work out those muscles.
 
-With that, I&#8217;ve announced that I will complete a game duringÂ November. Â I had a short discussion on twitter about this, that initially I&#8217;ve had issues with &#8220;just creating a game&#8221;. Â I basically set theÂ bar ofÂ standards too high for myself. Â It was set atÂ an achievable level, howeverÂ I&#8217;d becomeÂ overwhelmed and give up before putting any effort in, so I have now lowered the bar.
+With that, I've announced that I will complete a game during November. I had a short discussion on twitter about this, that initially I've had issues with "just creating a game". I basically set the bar of standards too high for myself. It was set at an achievable level, however I'd become overwhelmed and give up before putting any effort in, so I have now lowered the bar.
 
-In November, my game is going to be a top-down racing game. Â IÂ have set the following as a minimum feature set toÂ consider the project a success.
+In November, my game is going to be a top-down racing game. I have set the following as a minimum feature set to consider the project a success.
 
-  * Minimum of aÂ single track and single car for the player.
-  * &#8220;Hot lapping&#8221;Â for the best lap time, with saved best lap time.
-  * Lap Validation, no wheels off,Â and completed a full lap.
+  * Minimum of a single track and single car for the player.
+  * "Hot lapping" for the best lap time, with saved best lap time.
+  * Lap Validation, no wheels off, and completed a full lap.
 
-This is certainly a short list, but isÂ a fairÂ amount of stuff to get done, consideringÂ the time I&#8217;ve set a side and effortÂ in the past months. Â I hope to build this so that for future @OneGameAMonth&#8217;s I can perhaps create additional game modes, and/or add significant features. Â If not obvious, racing is amazing.
+This is certainly a short list, but is a fair amount of stuff to get done, considering the time I've set a side and effort in the past months. I hope to build this so that for future @OneGameAMonth's I can perhaps create additional game modes, and/or add significant features. If not obvious, racing is amazing.

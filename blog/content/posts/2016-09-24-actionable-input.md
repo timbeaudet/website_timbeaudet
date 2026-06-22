@@ -30,13 +30,13 @@ KeyContainer mKeyBindings;
 };  
 [/cpp]
 
-Just before [LudumDare][1] 36 I addedÂ a new way to handle input to TurtleBrains framework, it is quite simple but so far I really enjoy the way it is used.Â It is just a _powerful_ little objectÂ that can<!--more--> check the input manager for each of the bound keys allowing an action to bound to:
+Just before [LudumDare][1] 36 I added a new way to handle input to TurtleBrains framework, it is quite simple but so far I really enjoy the way it is used. It is just a _powerful_ little object that can<!--more--> check the input manager for each of the bound keys allowing an action to bound to:
 
-  * Any key (_supportedÂ by framework_)
+  * Any key (_supported by framework_)
   * Multiple keys at once!
   * No keys at all!
 
-The second one is quite interesting, consider implementing aÂ splash or title screen with multiple ways toÂ continue into game. Without the input action, it requiredÂ multiple checks, and more lengthy code.
+The second one is quite interesting, consider implementing a splash or title screen with multiple ways to continue into game. Without the input action, it required multiple checks, and more lengthy code.
 
 [cpp]  
 {  
@@ -66,6 +66,6 @@ mSkipForward.AddBinding(KeyEnter);
 }  
 [/cpp]
 
-But considering itÂ could allow use WASD **and** arrows keys for movement, or,Â _with a binding screen_Â the user could configure controls to their own liking. This is the first pass I make over such a system and so farÂ I&#8217;veÂ enjoyed the usage better than theÂ previous methods.
+But considering it could allow use WASD **and** arrows keys for movement, or, _with a binding screen_ the user could configure controls to their own liking. This is the first pass I make over such a system and so far I've enjoyed the usage better than the previous methods.
 
  [1]: http://www.ludumdare.com

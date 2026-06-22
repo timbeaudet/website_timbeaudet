@@ -18,13 +18,13 @@ A quick entry for the 4th OneHourGameJam entry: Survive.
 
 [Survive (for Windows)][2]
 
-Working on a game in an hour is a great way to learn the weaknesses about your development pipeline, be it in coding, art or audio. Â TheÂ result is almost always a project that will get thrown away, seriously it took 60 minutes to make, but the experience is certain to teach you something and sharpen game development skills.
+Working on a game in an hour is a great way to learn the weaknesses about your development pipeline, be it in coding, art or audio. The result is almost always a project that will get thrown away, seriously it took 60 minutes to make, but the experience is certain to teach you something and sharpen game development skills.
 
 <!--more-->
 
-After my first attempt at a game in a single hour I made a template project to be able to just say &#8220;CreateProject&#8221; and have everything setup and ready to go, that made the setup very quick this time and I didn&#8217;t spend much time fiddling with things, although still fiddled with the prototyping art, and created a very quick explosion sound effect then got to work adding circles and collision. Â The mouse moves the blue circle around which gets larger. Â The size increase was to promote difficulty change over time.
+After my first attempt at a game in a single hour I made a template project to be able to just say "CreateProject" and have everything setup and ready to go, that made the setup very quick this time and I didn't spend much time fiddling with things, although still fiddled with the prototyping art, and created a very quick explosion sound effect then got to work adding circles and collision. The mouse moves the blue circle around which gets larger. The size increase was to promote difficulty change over time.
 
-Again it tookÂ me a large portion of time to manage the entities so they could be spawned and cleaned upÂ appropriately, this is something TurtleBrains certainly needs to improve upon. Â Collision was also broken, I only noticed this after the end of the hour, although honestly it was written moments before the hour ended. Â TurtleBrains entities need collision as well, and hopefully before the next OneHourGameJam, it will be improved in these areas. Â This is also driving me to work on a concept kit, some basic sounds and art that can be used to get a game started.
+Again it took me a large portion of time to manage the entities so they could be spawned and cleaned up appropriately, this is something TurtleBrains certainly needs to improve upon. Collision was also broken, I only noticed this after the end of the hour, although honestly it was written moments before the hour ended. TurtleBrains entities need collision as well, and hopefully before the next OneHourGameJam, it will be improved in these areas. This is also driving me to work on a concept kit, some basic sounds and art that can be used to get a game started.
 
  [1]: http://www.timbeaudet.com/blog/2015/05/09/1hgj-entry-survive/
  [2]: http://www.timbeaudet.com/goods/ludumdare/hour_games/20150509_survive_windows.zip

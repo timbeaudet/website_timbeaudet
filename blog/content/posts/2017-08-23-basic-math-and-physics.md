@@ -16,7 +16,7 @@ categories:
 </p>
 
 [latexpage]  
-It has always been my aim to provide as much of a log about creating a racing simulation as I can, including the mathematics of the simulation and other details. I&#8217;ve just setup something on the blog to allow. So here we will start be some of the extremely basic math/physics that an average high-schooler would understand.<!--more-->
+It has always been my aim to provide as much of a log about creating a racing simulation as I can, including the mathematics of the simulation and other details. I've just setup something on the blog to allow. So here we will start be some of the extremely basic math/physics that an average high-schooler would understand.<!--more-->
 
 \begin{equation} \label{eq:sys}  
 \vec{F} = m\vec{A}  
@@ -30,6 +30,6 @@ Say for a moment we are confused what units $\vec{F}$ would be, how would we fig
 m(kg) \* \vec{A}(m/s^2) = kg\*m/s^2  
 \end{equation}
 
-I&#8217;ve been using this a lot recently, I&#8217;ve found it is a _great_ way to double/triple check that the math lines up and makes sense. Another lesson I&#8217;ve learned recently is that having confidence and attacking something is a grand way to improve. Years have passed since my last official math course and my attitude / thought process remained the same, until last week. From that point on I look at math as a challenge that I&#8217;m getting better at. The viewpoint of _&#8220;I suck at \____&#8221;_ will enforce negativity, so if you are attempting to get better, stop focusing on how bad you may be at the moment and instead **focus on improving**.
+I've been using this a lot recently, I've found it is a _great_ way to double/triple check that the math lines up and makes sense. Another lesson I've learned recently is that having confidence and attacking something is a grand way to improve. Years have passed since my last official math course and my attitude / thought process remained the same, until last week. From that point on I look at math as a challenge that I'm getting better at. The viewpoint of _"I suck at \____"_ will enforce negativity, so if you are attempting to get better, stop focusing on how bad you may be at the moment and instead **focus on improving**.
 
-You probably won&#8217;t go from drawing like a 5 year-old today to a Leonardo / Michelangelo tomorrow; but stay positive, take your time and put in the effort; improvements will come.
+You probably won't go from drawing like a 5 year-old today to a Leonardo / Michelangelo tomorrow; but stay positive, take your time and put in the effort; improvements will come.

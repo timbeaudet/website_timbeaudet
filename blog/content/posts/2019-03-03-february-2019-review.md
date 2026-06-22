@@ -24,7 +24,7 @@ tags:
     Total income: $871.07 <em>without personal investments</em>
   </li>
   <li>
-    Total income: $4790.65Â <em>with personal investments</em>
+    Total income: $4790.65 <em>with personal investments</em>
   </li>
   <li>
     Total expenses: $29.99
@@ -36,7 +36,7 @@ tags:
 
 <!--more--><figure class="wp-block-image">
 
-<img loading="lazy" decoding="async" width="600" height="371" class="wp-image-478" src="/blog/assets/2019/03/20190303064119_screenshot.png" alt="" srcset="/blog/assets/2019/03/20190303064119_screenshot.png 600w, /blog/assets/2019/03/20190303064119_screenshot-300x186.png 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /> </figure> Hours increased since January, however the hours are still lower in February for multiple reasons including events in January effecting early February. Also there were few evenings worked. In addition I started playing Rocket League for a bit of entertainment, though it needs to be kept on a leash &#8211; time flies by. A more detailed breakdown of income, expenses and hours can be found by [supporting Tim Beaudet on Patreon][1]. <figure class="wp-block-image"><img loading="lazy" decoding="async" width="600" height="371" class="wp-image-479" src="/blog/assets/2019/03/20190303064520_screenshot.png" alt="" srcset="/blog/assets/2019/03/20190303064520_screenshot.png 600w, /blog/assets/2019/03/20190303064520_screenshot-300x186.png 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure> February efforts were directed toward cleaning up and properly building out the foundational components. Making HTTP requests no-longer block the codepath, ensuring faster/easier development and no frame-rate glitches. Other improvements will help with graphics and resource management and consolidating code for maintainability. 
+<img loading="lazy" decoding="async" width="600" height="371" class="wp-image-478" src="/blog/assets/2019/03/20190303064119_screenshot.png" alt="" srcset="/blog/assets/2019/03/20190303064119_screenshot.png 600w, /blog/assets/2019/03/20190303064119_screenshot-300x186.png 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /> </figure> Hours increased since January, however the hours are still lower in February for multiple reasons including events in January effecting early February. Also there were few evenings worked. In addition I started playing Rocket League for a bit of entertainment, though it needs to be kept on a leash - time flies by. A more detailed breakdown of income, expenses and hours can be found by [supporting Tim Beaudet on Patreon][1]. <figure class="wp-block-image"><img loading="lazy" decoding="async" width="600" height="371" class="wp-image-479" src="/blog/assets/2019/03/20190303064520_screenshot.png" alt="" srcset="/blog/assets/2019/03/20190303064520_screenshot.png 600w, /blog/assets/2019/03/20190303064520_screenshot-300x186.png 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure> February efforts were directed toward cleaning up and properly building out the foundational components. Making HTTP requests no-longer block the codepath, ensuring faster/easier development and no frame-rate glitches. Other improvements will help with graphics and resource management and consolidating code for maintainability. 
 
 ## What was learned {.wp-block-heading}
 

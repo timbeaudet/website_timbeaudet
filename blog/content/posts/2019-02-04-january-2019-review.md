@@ -26,7 +26,7 @@ tags:
     Total income: $35.83 <em>without personal investments</em>
   </li>
   <li>
-    Total income: $3152.17Â <em>with personal investments</em>
+    Total income: $3152.17 <em>with personal investments</em>
   </li>
   <li>
     Total expenses: $49.98
