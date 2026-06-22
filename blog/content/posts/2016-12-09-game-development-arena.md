@@ -13,7 +13,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-367" src="/blog/assets/2016/12/book_shelves.jpg" alt="book_shelves" width="720" height="540" srcset="/blog/assets/2016/12/book_shelves.jpg 1280w, /blog/assets/2016/12/book_shelves-300x225.jpg 300w, /blog/assets/2016/12/book_shelves-768x576.jpg 768w, /blog/assets/2016/12/book_shelves-1024x768.jpg 1024w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-No game development arena would be complete without a library of books, actually google does pretty well these days - but I also have a fair collection of table top games for those times when<!--more--> the power goes out, 
+No game development arena would be complete without a library of books, actually google does pretty well these days - but I also have a fair collection of table top games for those times when the power goes out, 
 
 _sometimes_ _I even play them with the power on!_
 

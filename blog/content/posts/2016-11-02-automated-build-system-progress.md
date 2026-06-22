@@ -15,9 +15,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-356 size-full" src="/blog/assets/2016/10/logistics-852936_1280_falco_pixabay-e1478128813442.jpg" alt="logistics-852936_1280_falco_pixabay" width="720" height="540" />][1]
 
-I've been building up to this for years, and still have some cogs to put into place, but I've finally got a major part working; the master script. The master script is something I started about 6 months ago now, wow, and ran into some issues. First I needed it to recursively search directories and run a set of scripts that would be part of the auto build process. These scripts have been<!--more--> part of my 
-
-[template project][2] for many years waiting.
+I've been building up to this for years, and still have some cogs to put into place, but I've finally got a major part working; the master script. The master script is something I started about 6 months ago now, wow, and ran into some issues. First I needed it to recursively search directories and run a set of scripts that would be part of the auto build process. These scripts have been part of my [template project][2] for many years waiting.
 
 Just searching and calling the scripts, if they exist, was not enough though. If one of the steps failed, say there are no updates, or the build failed, then the rest of the scripts should not be called, so I needed the ability to pass back a value to the master script to halt that process if needed. I finally have this working, for batch scripts, and am that much closer to having a fully automated build system, <span style="text-decoration: underline;">of my own</span>.
 

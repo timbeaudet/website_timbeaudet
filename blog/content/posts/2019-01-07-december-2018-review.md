@@ -19,7 +19,7 @@ categories:
   * Total expenses: <span style="color: #ff9900;">$500.03</span>
   * Total hours: <span style="color: #ff9900;">233.25</span>
 
-Hours this month were off the charts high due to<!--more--> pushing very hard most morning and evenings before/after work-work. The Christmas break from work also helped, 
+Hours this month were off the charts high due to pushing very hard most morning and evenings before/after work-work. The Christmas break from work also helped, 
 
 _drastically_, increase the hours.
 

@@ -19,9 +19,7 @@ categories:
   * [Portal Miner for Windows][3]
   * [Portal Miner for Mac OS X][4]
 
-Going into LudumDare 32 a team formed, my girlfriend, Dizzy, wanted to help with art using InkScape as she had done during LD27 in our Feeding Time game. Mmango had also been interested in doing the audio, sound and music, and I would take point to keep the team together and do the programming. This would be the first event where I would
-
-<!--more--> use TurtleBrains under pressure. I had made a few small test projects, Mini-LD 58's Basic Pong was the first of such projects. I knew that TurtleBrains would have some limitations, but was confident it was ready for debut.
+Going into LudumDare 32 a team formed, my girlfriend, Dizzy, wanted to help with art using InkScape as she had done during LD27 in our Feeding Time game. Mmango had also been interested in doing the audio, sound and music, and I would take point to keep the team together and do the programming. This would be the first event where I would use TurtleBrains under pressure. I had made a few small test projects, Mini-LD 58's Basic Pong was the first of such projects. I knew that TurtleBrains would have some limitations, but was confident it was ready for debut.
 
 When the theme was announced at 9:00pm local time, my girlfriend and I were slightly disappointed. We were hoping for Creatures of the Night or Harvest to make a small racing game, something I've always wanted to do for LudumDare, but have yet to do. We put our design hats on and with some help from irc came up with a small racing game in space with portals used by the track/environment as an Unconventional Weapon to lengthen the race. The next few hours we spent working out the details, writing a quick document and starting some of the very basic, placeholder art and getting a basic scene put together.
 

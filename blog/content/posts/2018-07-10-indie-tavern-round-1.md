@@ -10,7 +10,7 @@ categories:
   - Game Development
 
 ---
-In an attempt to be completely transparent with my Indie Adventure I will post information about the quest each month. This will also be discussed with [Fletcher][1] from Noctem Studios on the first Sunday of every month on the [Indie Tavern livestream][2]. As a low-level adventurer, I suspect<!--more--> loot and shopping sprees to be infrequent, but tracking this stuff is important for multiple reasons;
+In an attempt to be completely transparent with my Indie Adventure I will post information about the quest each month. This will also be discussed with [Fletcher][1] from Noctem Studios on the first Sunday of every month on the [Indie Tavern livestream][2]. As a low-level adventurer, I suspect loot and shopping sprees to be infrequent, but tracking this stuff is important for multiple reasons;
 
   * It makes one painfully aware of financial needs and impacts.
   * Important for taxes and other business reasons.

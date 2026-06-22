@@ -14,8 +14,6 @@ categories:
 
 My amazing girlfriend Sonia and I recently went camping in the [DuPuis Management Area][2] of the South Florida Water Management District. It was a quick weekend trip that was quite amazing and I had tried something very new to me, **Hiking Barefoot**.
 
-<!--more-->
-
 Leaving the car, my feet were protected by my normal, everyday, shoes. We hiked the east side of the loop trails in the beaming sun, taking several breaks whenever we found a spot of shade. Finally we arrived at the campsite near the end of the second loop,. We had planned on staying for the night, carrying all the necessary gear, food and extra water to do just that.
 
 We took off our shoes, spread out over the ground taking an extended lunch. During which we decided to head back to the campground, which circled a little pond, since we had plenty of time to make it back. I decided I'd try walking out barefoot and put my shoes into my pack when we had finished lounging around. This would be new, and the terrain was mostly grassy so it shouldn't be to bad to attempt. If it felt too rough I could always put my shoes back on.

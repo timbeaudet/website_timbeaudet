@@ -13,9 +13,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-131" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/04/20150408_233100.png" alt="20150408_233100_april" width="720" height="421" srcset="/blog/assets/2015/04/20150408_233100.png 1272w, /blog/assets/2015/04/20150408_233100-300x175.png 300w, /blog/assets/2015/04/20150408_233100-1024x598.png 1024w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-This screenshot doesn't show the action of attacking and defending units, but in the last few days I've been leading a small team on a collaborative project: APRIL. The project is essentially a small real-time strategy game where a unit is composed of tiny little nanobots. You can order units to combine to become bigger and more powerful, and order them to move around. 
-
-[Here is an animated gif][2] of the interactivity as it was a few days ago, you can already see differences in that screenshot.
+This screenshot doesn't show the action of attacking and defending units, but in the last few days I've been leading a small team on a collaborative project: APRIL. The project is essentially a small real-time strategy game where a unit is composed of tiny little nanobots. You can order units to combine to become bigger and more powerful, and order them to move around. [Here is an animated gif][2] of the interactivity as it was a few days ago, you can already see differences in that screenshot.
 
 The scope of the project was kept as small as possible so we could get the mechanics complete and focus on polish and design. I was tasked with getting the project started and the first interactivity build complete, from that point on my gears have changed to adding a TileMap, Camera and SoundManager to [TurtleBrains][3].
 
