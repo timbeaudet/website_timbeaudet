@@ -13,7 +13,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-136 size-full" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/04/big_picture_race.png" alt="big_picture_race" width="720" height="464" srcset="/blog/assets/2015/04/big_picture_race.png 720w, /blog/assets/2015/04/big_picture_race-300x193.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-Looking around here it isn't hard to see that I have a passion for programming. One may even be able to gather that I am also interested in racing. For years I have been wanting to develop my own racing simulator, much like [Live For Speed][2] or [iRacing][3], and have started to<!--more--> do so a few times. My arcade game project, 
+Looking around here it isn't hard to see that I have a passion for programming. One may even be able to gather that I am also interested in racing. For years I have been wanting to develop my own racing simulator, much like [Live For Speed][2] or [iRacing][3], and have started to do so a few times. My arcade game project, 
 
 [RacerX][4], didn't make get very far, but I was fresh out of college.
 

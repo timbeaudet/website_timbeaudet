@@ -16,7 +16,7 @@ I have started working on the Artificial Intelligence in Racing Simulations proj
 
 The second version/iteration of driving logic was written last year, March 2015, but my PC at the time was getting outdated and overloaded as it tried running everything it needed, plus AIRS logic could use some optimizations. I lost motivation after writing "Driving Logic version 2" (DLv2 for short), since it didn't behave as well as I had hoped.
 
-The driver got faster than DLv1, and learned<!--more--> a track safely so he could do better in more than a single car, but eventually he would start failing and couldn't run endless laps. I lost motivation and gave up. Upon coming back I find it interesting that those issues are gone. Despite not touching any logic related to the learning and reference point modification process, the driver did not fail anymore. I believe this is because the driver can more reliably hit marks with the frame rate boost on the new PC. 
+The driver got faster than DLv1, and learned a track safely so he could do better in more than a single car, but eventually he would start failing and couldn't run endless laps. I lost motivation and gave up. Upon coming back I find it interesting that those issues are gone. Despite not touching any logic related to the learning and reference point modification process, the driver did not fail anymore. I believe this is because the driver can more reliably hit marks with the frame rate boost on the new PC. 
 
 _AIRS had been running at **20fps** where it now runs nearly **1400fps**._
 

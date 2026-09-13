@@ -14,7 +14,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="alignleft wp-image-241 size-full" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/09/20150919_zcw3_line_colors.png" alt="20150919_zcw3_line_colors" width="720" height="360" srcset="/blog/assets/2015/09/20150919_zcw3_line_colors.png 720w, /blog/assets/2015/09/20150919_zcw3_line_colors-300x150.png 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-Ever since I 'upgraded' TurtleBrains to use the OpenGL 3.2 Core context, ZoomCarWorld3 has not been rendering. For awhile it would actually throw errors and crash, until all the legacy OpenGL causing those errors was disabled. Last weekend the mission was to<!--more--> bring the rendering state back to where it previously was.
+Ever since I 'upgraded' TurtleBrains to use the OpenGL 3.2 Core context, ZoomCarWorld3 has not been rendering. For awhile it would actually throw errors and crash, until all the legacy OpenGL causing those errors was disabled. Last weekend the mission was to bring the rendering state back to where it previously was.
 
 I had already fixed the skybox and wrote the sky shader, and even started the basic object shader. There was no lighting model, lines were not rendered at all nor was the track because it was not using a mesh. First thing to update was the line rendering. I got the lines stored as vertices and pushed through the pipe in a way GL 3.2 required, once that was complete their color was added.
 

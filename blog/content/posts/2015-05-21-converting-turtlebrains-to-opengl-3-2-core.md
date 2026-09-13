@@ -14,7 +14,7 @@ categories:
 ---
 <figure id="attachment_168" aria-describedby="caption-attachment-168" style="width: 710px" class="wp-caption aligncenter">[<img loading="lazy" decoding="async" class="wp-image-168" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/05/20150518_202900_gl_conversion.png" alt="20150518_202900_gl_conversion" width="710" height="415" srcset="/blog/assets/2015/05/20150518_202900_gl_conversion.png 1286w, /blog/assets/2015/05/20150518_202900_gl_conversion-300x175.png 300w, /blog/assets/2015/05/20150518_202900_gl_conversion-1024x599.png 1024w" sizes="auto, (max-width: 710px) 100vw, 710px" />][1]<figcaption id="caption-attachment-168" class="wp-caption-text">(Figure 1. OpenGL 3.2 Core Shader Tutorial)</figcaption></figure> 
 
-TurtleBrains development began with OpenGL as it should help allow TurtleBrains to remain fairly platform independent, at least across personal computers; Windows, Mac OS X and Linux, the first batch of target platforms. At the time I did not realize I was using<!--more--> deprecated functions, Legacy OpenGL. It would seem the fixed-function pipeline and several states are now obsolete, so with 
+TurtleBrains development began with OpenGL as it should help allow TurtleBrains to remain fairly platform independent, at least across personal computers; Windows, Mac OS X and Linux, the first batch of target platforms. At the time I did not realize I was using deprecated functions, Legacy OpenGL. It would seem the fixed-function pipeline and several states are now obsolete, so with 
 
 **a lot** of help from [<s>@</s>neilogd][2]{.twitter-atreply.pretty-link}, the legacy code was converted to OpenGL 3.2 Core which should help reduce driver bugs and increase portability.
 

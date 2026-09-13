@@ -10,7 +10,7 @@ categories:
   - Sim Racing
 
 ---
-[<img loading="lazy" decoding="async" class="aligncenter wp-image-225 size-full" src="/blog/assets/2015/09/20150905_srs_01_before-e1441835518902.jpg" alt="20150905_srs_01_before" width="720" height="540" />][1]I've been racing with 22&#8243; monitors (pictured above) for nearly 8 years now, The ol' Acers held up fairly well, though power boards were replaced on two of them and recently one developed a dead line of green pixels. I had not realized, until very recently, that the virtual world had been<!--more--> distorted visually, like looking through a fish eye lens, because I had been using an FoV higher than what was mathematically correct. 
+[<img loading="lazy" decoding="async" class="aligncenter wp-image-225 size-full" src="/blog/assets/2015/09/20150905_srs_01_before-e1441835518902.jpg" alt="20150905_srs_01_before" width="720" height="540" />][1]I've been racing with 22&#8243; monitors (pictured above) for nearly 8 years now, The ol' Acers held up fairly well, though power boards were replaced on two of them and recently one developed a dead line of green pixels. I had not realized, until very recently, that the virtual world had been distorted visually, like looking through a fish eye lens, because I had been using an FoV higher than what was mathematically correct. 
 
 _(Imagine a window, the closer you get the more you see outside the window, or the bigger the window the more you see, monitors are windows into the virtual world)._ After stumbling across this I upgraded to 27&#8243; monitors, and planned to bring them closer, however I don't want them close always, since I use the machine for programming also.
 

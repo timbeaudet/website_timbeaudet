@@ -13,7 +13,7 @@ categories:
 ---
 [<img loading="lazy" decoding="async" class="aligncenter wp-image-145" src="http://www.timbeaudet.com/blog/wp-content/uploads/2015/04/razer_blackwidow.jpg" alt="razer_blackwidow" width="720" height="485" srcset="/blog/assets/2015/04/razer_blackwidow.jpg 580w, /blog/assets/2015/04/razer_blackwidow-300x202.jpg 300w" sizes="auto, (max-width: 720px) 100vw, 720px" />][1]
 
-Don't skimp when it comes to buying a good setup to use for development, especially if you spend most of your time developing. A few years back I was lucky enough to work for a company that provided better than needed equipment. I had been using a small keyboard with flat keys that came standard with the Mac machine, and made a comment about missing the<!--more--> full keyboard, number pad, among the flat keys that felt like a laptop.
+Don't skimp when it comes to buying a good setup to use for development, especially if you spend most of your time developing. A few years back I was lucky enough to work for a company that provided better than needed equipment. I had been using a small keyboard with flat keys that came standard with the Mac machine, and made a comment about missing the full keyboard, number pad, among the flat keys that felt like a laptop.
 
 The following day they replaced the keyboard with a mechanical keyboard from Razer, a BlackWidow. Never having used a mechanical keyboard before I thought this was both overkill, that keyboard costs a fair bit, and assumed there was just a hype around mechanical keyboards. How wrong I was. The audible and tactile feedback from the mechanical keyboard was amazing.
 

@@ -34,11 +34,7 @@ tags:
   <li>
     Total hours: 50.25
   </li>
-</ul> Hours this month were very low this month because life happened, unplanned trips for funeral and family visitations. 
-
-<!--more--> More details of the income/expense and hours can be found by 
-
-[supporting Tim Beaudet on Patreon][1]. 
+</ul> Hours this month were very low this month because life happened, unplanned trips for funeral and family visitations. More details of the income/expense and hours can be found by [supporting Tim Beaudet on Patreon][1]. 
 
 <div class="wp-block-image">
   <figure class="aligncenter"><a href="/blog/assets/2019/01/20190107081142_screenshot.png"><img loading="lazy" decoding="async" width="600" height="371" class="wp-image-473" src="/blog/assets/2019/02/20190204065605_screenshot.png" alt="" srcset="/blog/assets/2019/02/20190204065605_screenshot.png 600w, /blog/assets/2019/02/20190204065605_screenshot-300x186.png 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /></a></figure>

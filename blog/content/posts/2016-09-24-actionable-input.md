@@ -30,7 +30,7 @@ KeyContainer mKeyBindings;
 };  
 [/cpp]
 
-Just before [LudumDare][1] 36 I added a new way to handle input to TurtleBrains framework, it is quite simple but so far I really enjoy the way it is used. It is just a _powerful_ little object that can<!--more--> check the input manager for each of the bound keys allowing an action to bound to:
+Just before [LudumDare][1] 36 I added a new way to handle input to TurtleBrains framework, it is quite simple but so far I really enjoy the way it is used. It is just a _powerful_ little object that can check the input manager for each of the bound keys allowing an action to bound to:
 
   * Any key (_supported by framework_)
   * Multiple keys at once!
